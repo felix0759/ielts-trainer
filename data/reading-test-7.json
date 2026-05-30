@@ -3,11 +3,26 @@
   "title": "Reading Test 7: Electric Buses and Urban Transport",
   "durationMinutes": 60,
   "passage": [
-    "Electric buses are being introduced in many cities as transport authorities attempt to reduce emissions from public transport. Unlike diesel buses, electric buses produce no exhaust fumes while driving, which can improve air quality along busy routes.",
-    "The environmental benefit of electric buses depends partly on how electricity is produced. If the electricity comes mainly from coal, the total reduction in emissions may be smaller. If it comes from renewable sources such as wind or solar power, the overall impact can be much stronger.",
-    "Electric buses can also be quieter than diesel vehicles. This is useful in residential streets and near schools, where traffic noise can affect daily life. However, quiet vehicles may create new safety concerns for pedestrians who rely on sound when crossing roads.",
-    "Charging infrastructure is one of the main practical challenges. Bus operators need charging points at depots or along routes, and schedules must allow enough time for batteries to recharge. In cold weather or on hilly routes, batteries may lose energy more quickly.",
-    "Although electric buses can be expensive to purchase, their running costs may be lower because electricity and maintenance can cost less than diesel fuel and engine repairs. For many cities, the decision involves balancing high initial costs against long-term savings and environmental goals."
+    {
+      "label": "A",
+      "text": "Electric buses are being introduced in many cities as transport authorities attempt to reduce emissions from public transport. Unlike diesel buses, electric buses produce no exhaust fumes while driving, which can improve air quality along busy routes."
+    },
+    {
+      "label": "B",
+      "text": "The environmental benefit of electric buses depends partly on how electricity is produced. If the electricity comes mainly from coal, the total reduction in emissions may be smaller. If it comes from renewable sources such as wind or solar power, the overall impact can be much stronger."
+    },
+    {
+      "label": "C",
+      "text": "Electric buses can also be quieter than diesel vehicles. This is useful in residential streets and near schools, where traffic noise can affect daily life. However, quiet vehicles may create new safety concerns for pedestrians who rely on sound when crossing roads."
+    },
+    {
+      "label": "D",
+      "text": "Charging infrastructure is one of the main practical challenges. Bus operators need charging points at depots or along routes, and schedules must allow enough time for batteries to recharge. In cold weather or on hilly routes, batteries may lose energy more quickly."
+    },
+    {
+      "label": "E",
+      "text": "Although electric buses can be expensive to purchase, their running costs may be lower because electricity and maintenance can cost less than diesel fuel and engine repairs. For many cities, the decision involves balancing high initial costs against long-term savings and environmental goals."
+    }
   ],
   "questionGroups": [
     {
@@ -20,7 +35,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Electric buses produce no exhaust fumes while driving.",
           "answer": "TRUE",
-          "explanation": "Paragraph 1 states this directly."
+          "explanation": {
+            "short": "Paragraph 1 states this directly.",
+            "detailed": "The correct answer is TRUE because it is supported by the passage. The key evidence is: “Unlike diesel buses, electric buses produce no exhaust fumes while driving, which can improve air quality along busy routes.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 1 states this directly.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "Unlike diesel buses, electric buses produce no exhaust fumes while driving, which can improve air quality along busy routes.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 2,
@@ -28,7 +56,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Electric buses always have the same environmental impact regardless of electricity source.",
           "answer": "FALSE",
-          "explanation": "Paragraph 2 says the benefit depends partly on how electricity is produced."
+          "explanation": {
+            "short": "Paragraph 2 says the benefit depends partly on how electricity is produced.",
+            "detailed": "The correct answer is FALSE because the statement is contradicted by the passage. The evidence says: “The environmental benefit of electric buses depends partly on how electricity is produced.” This means the idea in the question does not match the information in the text. Paragraph 2 says the benefit depends partly on how electricity is produced.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 1,
+              "paragraphLabel": "Paragraph B",
+              "quote": "The environmental benefit of electric buses depends partly on how electricity is produced.",
+              "relationship": "contradiction",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 3,
@@ -36,7 +77,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Quiet electric buses may create safety concerns for some pedestrians.",
           "answer": "TRUE",
-          "explanation": "Paragraph 3 says this directly."
+          "explanation": {
+            "short": "Paragraph 3 says this directly.",
+            "detailed": "The correct answer is TRUE because it is supported by the passage. The key evidence is: “However, quiet vehicles may create new safety concerns for pedestrians who rely on sound when crossing roads.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 3 says this directly.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 2,
+              "paragraphLabel": "Paragraph C",
+              "quote": "However, quiet vehicles may create new safety concerns for pedestrians who rely on sound when crossing roads.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 4,
@@ -44,7 +98,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "All electric buses can fully recharge in under five minutes.",
           "answer": "NOT GIVEN",
-          "explanation": "The passage discusses charging time but gives no specific five-minute claim."
+          "explanation": {
+            "short": "The passage discusses charging time but gives no specific five-minute claim.",
+            "detailed": "The correct answer is NOT GIVEN because the passage gives related information, but it does not confirm the exact claim in the question. The closest relevant evidence is: “Unlike diesel buses, electric buses produce no exhaust fumes while driving, which can improve air quality along busy routes.” Since the missing detail is not stated, you should not infer it from general knowledge. The passage discusses charging time but gives no specific five-minute claim.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "Unlike diesel buses, electric buses produce no exhaust fumes while driving, which can improve air quality along busy routes.",
+              "relationship": "related_not_enough",
+              "note": "This is related to the question, but it does not provide enough information to confirm the statement."
+            }
+          ]
         }
       ]
     },
@@ -76,7 +143,20 @@
             }
           ],
           "answer": "B",
-          "explanation": "Paragraph 2 says renewable sources like wind or solar make the impact stronger."
+          "explanation": {
+            "short": "Paragraph 2 says renewable sources like wind or solar make the impact stronger.",
+            "detailed": "The correct answer is B because it matches the relevant information in the passage. The key evidence is: “The environmental benefit of electric buses depends partly on how electricity is produced.” Other options are less suitable because they either are not mentioned or change the meaning of the text. Paragraph 2 says renewable sources like wind or solar make the impact stronger.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 1,
+              "paragraphLabel": "Paragraph B",
+              "quote": "The environmental benefit of electric buses depends partly on how electricity is produced.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 6,
@@ -102,7 +182,20 @@
             }
           ],
           "answer": "A",
-          "explanation": "Paragraph 4 identifies charging infrastructure as a main practical challenge."
+          "explanation": {
+            "short": "Paragraph 4 identifies charging infrastructure as a main practical challenge.",
+            "detailed": "The correct answer is A because it matches the relevant information in the passage. The key evidence is: “Charging infrastructure is one of the main practical challenges.” Other options are less suitable because they either are not mentioned or change the meaning of the text. Paragraph 4 identifies charging infrastructure as a main practical challenge.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 3,
+              "paragraphLabel": "Paragraph D",
+              "quote": "Charging infrastructure is one of the main practical challenges.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 7,
@@ -128,7 +221,20 @@
             }
           ],
           "answer": "A",
-          "explanation": "The final paragraph states this directly."
+          "explanation": {
+            "short": "The final paragraph states this directly.",
+            "detailed": "The correct answer is A because it matches the relevant information in the passage. The key evidence is: “For many cities, the decision involves balancing high initial costs against long-term savings and environmental goals.” Other options are less suitable because they either are not mentioned or change the meaning of the text. The final paragraph states this directly.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 4,
+              "paragraphLabel": "Paragraph E",
+              "quote": "For many cities, the decision involves balancing high initial costs against long-term savings and environmental goals.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         }
       ]
     },
@@ -144,7 +250,20 @@
           "answer": [
             "air quality"
           ],
-          "explanation": "Paragraph 1 says they can improve air quality."
+          "explanation": {
+            "short": "Paragraph 1 says they can improve air quality.",
+            "detailed": "The correct answer is air quality because it is supported by the passage. The key evidence is: “Unlike diesel buses, electric buses produce no exhaust fumes while driving, which can improve air quality along busy routes.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 1 says they can improve air quality.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "Unlike diesel buses, electric buses produce no exhaust fumes while driving, which can improve air quality along busy routes.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 9,
@@ -154,7 +273,20 @@
           "answer": [
             "residential streets"
           ],
-          "explanation": "Paragraph 3 mentions residential streets."
+          "explanation": {
+            "short": "Paragraph 3 mentions residential streets.",
+            "detailed": "The correct answer is residential streets because it is supported by the passage. The key evidence is: “Electric buses can also be quieter than diesel vehicles.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 3 mentions residential streets.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 2,
+              "paragraphLabel": "Paragraph C",
+              "quote": "Electric buses can also be quieter than diesel vehicles.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 10,
@@ -164,9 +296,25 @@
           "answer": [
             "running costs"
           ],
-          "explanation": "Paragraph 5 says their running costs may be lower."
+          "explanation": {
+            "short": "Paragraph 5 says their running costs may be lower.",
+            "detailed": "The correct answer is running costs because it is supported by the passage. The key evidence is: “Although electric buses can be expensive to purchase, their running costs may be lower because electricity and maintenance can cost less than diesel fuel and engine repairs.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 5 says their running costs may be lower.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 4,
+              "paragraphLabel": "Paragraph E",
+              "quote": "Although electric buses can be expensive to purchase, their running costs may be lower because electricity and maintenance can cost less than diesel fuel and engine repairs.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "questionCount": 10,
+  "level": "Practice",
+  "estimatedBandRange": "Practice only"
 }

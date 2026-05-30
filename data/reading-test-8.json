@@ -3,11 +3,26 @@
   "title": "Reading Test 8: Sleep and Effective Learning",
   "durationMinutes": 60,
   "passage": [
-    "Sleep has a strong influence on learning, but its role is sometimes underestimated by students. When people study new material, the brain does not simply store information at the moment of reading or listening. Important changes continue to happen after study sessions have ended.",
-    "Researchers often describe sleep as a period of memory consolidation. During this process, the brain strengthens some new connections and weakens others. This may help learners remember important information while forgetting details that are less useful.",
-    "Sleep can also affect attention. A student who sleeps poorly may read the same paragraph several times without understanding it fully. In contrast, a rested student is more likely to notice relationships between ideas and correct errors during practice.",
-    "Many students try to compensate for limited time by studying late into the night. This may increase the number of hours spent with books, but it can reduce the quality of learning the following day. Short review sessions over several days are often more effective than one long session before a test.",
-    "Good study routines therefore include both active practice and recovery. Testing oneself, explaining ideas aloud, and reviewing mistakes are useful strategies, but they work best when combined with enough sleep. Learning is not only about effort; it is also about allowing the brain time to organise what has been learned."
+    {
+      "label": "A",
+      "text": "Sleep has a strong influence on learning, but its role is sometimes underestimated by students. When people study new material, the brain does not simply store information at the moment of reading or listening. Important changes continue to happen after study sessions have ended."
+    },
+    {
+      "label": "B",
+      "text": "Researchers often describe sleep as a period of memory consolidation. During this process, the brain strengthens some new connections and weakens others. This may help learners remember important information while forgetting details that are less useful."
+    },
+    {
+      "label": "C",
+      "text": "Sleep can also affect attention. A student who sleeps poorly may read the same paragraph several times without understanding it fully. In contrast, a rested student is more likely to notice relationships between ideas and correct errors during practice."
+    },
+    {
+      "label": "D",
+      "text": "Many students try to compensate for limited time by studying late into the night. This may increase the number of hours spent with books, but it can reduce the quality of learning the following day. Short review sessions over several days are often more effective than one long session before a test."
+    },
+    {
+      "label": "E",
+      "text": "Good study routines therefore include both active practice and recovery. Testing oneself, explaining ideas aloud, and reviewing mistakes are useful strategies, but they work best when combined with enough sleep. Learning is not only about effort; it is also about allowing the brain time to organise what has been learned."
+    }
   ],
   "questionGroups": [
     {
@@ -20,7 +35,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "The brain continues to process information after study sessions end.",
           "answer": "TRUE",
-          "explanation": "Paragraph 1 says important changes continue after study sessions have ended."
+          "explanation": {
+            "short": "Paragraph 1 says important changes continue after study sessions have ended.",
+            "detailed": "The correct answer is TRUE because it is supported by the passage. The key evidence is: “Important changes continue to happen after study sessions have ended.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 1 says important changes continue after study sessions have ended.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "Important changes continue to happen after study sessions have ended.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 2,
@@ -28,7 +56,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Memory consolidation involves strengthening some connections and weakening others.",
           "answer": "TRUE",
-          "explanation": "Paragraph 2 states this directly."
+          "explanation": {
+            "short": "Paragraph 2 states this directly.",
+            "detailed": "The correct answer is TRUE because it is supported by the passage. The key evidence is: “During this process, the brain strengthens some new connections and weakens others.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 2 states this directly.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 1,
+              "paragraphLabel": "Paragraph B",
+              "quote": "During this process, the brain strengthens some new connections and weakens others.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 3,
@@ -36,7 +77,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Studying late at night always improves learning quality the next day.",
           "answer": "FALSE",
-          "explanation": "Paragraph 4 says it can reduce the quality of learning the following day."
+          "explanation": {
+            "short": "Paragraph 4 says it can reduce the quality of learning the following day.",
+            "detailed": "The correct answer is FALSE because the statement is contradicted by the passage. The evidence says: “Many students try to compensate for limited time by studying late into the night.” This means the idea in the question does not match the information in the text. Paragraph 4 says it can reduce the quality of learning the following day.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 3,
+              "paragraphLabel": "Paragraph D",
+              "quote": "Many students try to compensate for limited time by studying late into the night.",
+              "relationship": "contradiction",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 4,
@@ -44,7 +98,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "The passage says every student needs exactly eight hours of sleep.",
           "answer": "NOT GIVEN",
-          "explanation": "The passage discusses enough sleep but gives no exact number."
+          "explanation": {
+            "short": "The passage discusses enough sleep but gives no exact number.",
+            "detailed": "The correct answer is NOT GIVEN because the passage gives related information, but it does not confirm the exact claim in the question. The closest relevant evidence is: “Sleep has a strong influence on learning, but its role is sometimes underestimated by students.” Since the missing detail is not stated, you should not infer it from general knowledge. The passage discusses enough sleep but gives no exact number.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "Sleep has a strong influence on learning, but its role is sometimes underestimated by students.",
+              "relationship": "related_not_enough",
+              "note": "This is related to the question, but it does not provide enough information to confirm the statement."
+            }
+          ]
         }
       ]
     },
@@ -76,7 +143,20 @@
             }
           ],
           "answer": "A",
-          "explanation": "Paragraph 3 says sleep can affect attention."
+          "explanation": {
+            "short": "Paragraph 3 says sleep can affect attention.",
+            "detailed": "The correct answer is A because it matches the relevant information in the passage. The key evidence is: “Sleep can also affect attention.” Other options are less suitable because they either are not mentioned or change the meaning of the text. Paragraph 3 says sleep can affect attention.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 2,
+              "paragraphLabel": "Paragraph C",
+              "quote": "Sleep can also affect attention.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 6,
@@ -102,7 +182,20 @@
             }
           ],
           "answer": "B",
-          "explanation": "Paragraph 4 states this directly."
+          "explanation": {
+            "short": "Paragraph 4 states this directly.",
+            "detailed": "The correct answer is B because it matches the relevant information in the passage. The key evidence is: “Short review sessions over several days are often more effective than one long session before a test.” Other options are less suitable because they either are not mentioned or change the meaning of the text. Paragraph 4 states this directly.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 3,
+              "paragraphLabel": "Paragraph D",
+              "quote": "Short review sessions over several days are often more effective than one long session before a test.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 7,
@@ -128,7 +221,20 @@
             }
           ],
           "answer": "A",
-          "explanation": "The paragraph argues that active strategies work best with enough sleep and recovery."
+          "explanation": {
+            "short": "The paragraph argues that active strategies work best with enough sleep and recovery.",
+            "detailed": "The correct answer is A because it matches the relevant information in the passage. The key evidence is: “Sleep has a strong influence on learning, but its role is sometimes underestimated by students.” Other options are less suitable because they either are not mentioned or change the meaning of the text. The paragraph argues that active strategies work best with enough sleep and recovery.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "Sleep has a strong influence on learning, but its role is sometimes underestimated by students.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         }
       ]
     },
@@ -144,7 +250,20 @@
           "answer": [
             "memory consolidation"
           ],
-          "explanation": "Paragraph 2 uses this term."
+          "explanation": {
+            "short": "Paragraph 2 uses this term.",
+            "detailed": "The correct answer is memory consolidation because it is supported by the passage. The key evidence is: “Researchers often describe sleep as a period of memory consolidation.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 2 uses this term.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 1,
+              "paragraphLabel": "Paragraph B",
+              "quote": "Researchers often describe sleep as a period of memory consolidation.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 9,
@@ -154,7 +273,20 @@
           "answer": [
             "rested student"
           ],
-          "explanation": "Paragraph 3 uses the phrase a rested student."
+          "explanation": {
+            "short": "Paragraph 3 uses the phrase a rested student.",
+            "detailed": "The correct answer is rested student because it is supported by the passage. The key evidence is: “In contrast, a rested student is more likely to notice relationships between ideas and correct errors during practice.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 3 uses the phrase a rested student.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 2,
+              "paragraphLabel": "Paragraph C",
+              "quote": "In contrast, a rested student is more likely to notice relationships between ideas and correct errors during practice.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 10,
@@ -164,9 +296,25 @@
           "answer": [
             "mistakes"
           ],
-          "explanation": "The final paragraph includes reviewing mistakes as a useful strategy."
+          "explanation": {
+            "short": "The final paragraph includes reviewing mistakes as a useful strategy.",
+            "detailed": "The correct answer is mistakes because it is supported by the passage. The key evidence is: “Good study routines therefore include both active practice and recovery.” This evidence matches the meaning of the question, even if the wording is not exactly the same. The final paragraph includes reviewing mistakes as a useful strategy.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 4,
+              "paragraphLabel": "Paragraph E",
+              "quote": "Good study routines therefore include both active practice and recovery.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "questionCount": 10,
+  "level": "Practice",
+  "estimatedBandRange": "Practice only"
 }

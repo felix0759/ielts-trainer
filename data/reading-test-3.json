@@ -3,11 +3,26 @@
   "title": "Reading Test 3: Rooftop Gardens in Modern Cities",
   "durationMinutes": 60,
   "passage": [
-    "Rooftop gardens are becoming more common in dense cities where ground-level space is limited. These gardens can be installed on residential buildings, offices, schools, and public facilities. Some are designed mainly for relaxation, while others are used to grow vegetables or support urban wildlife.",
-    "One advantage of rooftop planting is temperature control. Soil and vegetation can absorb sunlight and reduce the amount of heat transferred into a building. This may lower the need for air conditioning in summer, especially in poorly insulated buildings.",
-    "Rooftop gardens can also help manage rainwater. During heavy rainfall, plants and soil hold part of the water temporarily, slowing the speed at which it enters drainage systems. This does not remove the need for proper drains, but it can reduce pressure during storms.",
-    "Despite these benefits, rooftop gardens require careful planning. Engineers must check whether a roof can support the extra weight of soil, water, plants, and people. Maintenance is also important because neglected gardens can become unsafe or fail to survive dry periods.",
-    "Successful projects often involve cooperation between architects, residents, building managers, and local authorities. When these groups work together, rooftop gardens can provide environmental benefits as well as pleasant shared spaces above the busy streets below."
+    {
+      "label": "A",
+      "text": "Rooftop gardens are becoming more common in dense cities where ground-level space is limited. These gardens can be installed on residential buildings, offices, schools, and public facilities. Some are designed mainly for relaxation, while others are used to grow vegetables or support urban wildlife."
+    },
+    {
+      "label": "B",
+      "text": "One advantage of rooftop planting is temperature control. Soil and vegetation can absorb sunlight and reduce the amount of heat transferred into a building. This may lower the need for air conditioning in summer, especially in poorly insulated buildings."
+    },
+    {
+      "label": "C",
+      "text": "Rooftop gardens can also help manage rainwater. During heavy rainfall, plants and soil hold part of the water temporarily, slowing the speed at which it enters drainage systems. This does not remove the need for proper drains, but it can reduce pressure during storms."
+    },
+    {
+      "label": "D",
+      "text": "Despite these benefits, rooftop gardens require careful planning. Engineers must check whether a roof can support the extra weight of soil, water, plants, and people. Maintenance is also important because neglected gardens can become unsafe or fail to survive dry periods."
+    },
+    {
+      "label": "E",
+      "text": "Successful projects often involve cooperation between architects, residents, building managers, and local authorities. When these groups work together, rooftop gardens can provide environmental benefits as well as pleasant shared spaces above the busy streets below."
+    }
   ],
   "questionGroups": [
     {
@@ -20,7 +35,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Rooftop gardens are only found on residential buildings.",
           "answer": "FALSE",
-          "explanation": "Paragraph 1 says they can be installed on residential buildings, offices, schools, and public facilities."
+          "explanation": {
+            "short": "Paragraph 1 says they can be installed on residential buildings, offices, schools, and public facilities.",
+            "detailed": "The correct answer is FALSE because the statement is contradicted by the passage. The evidence says: “These gardens can be installed on residential buildings, offices, schools, and public facilities.” This means the idea in the question does not match the information in the text. Paragraph 1 says they can be installed on residential buildings, offices, schools, and public facilities.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "These gardens can be installed on residential buildings, offices, schools, and public facilities.",
+              "relationship": "contradiction",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 2,
@@ -28,7 +56,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Some rooftop gardens are used to grow vegetables.",
           "answer": "TRUE",
-          "explanation": "Paragraph 1 says some are used to grow vegetables."
+          "explanation": {
+            "short": "Paragraph 1 says some are used to grow vegetables.",
+            "detailed": "The correct answer is TRUE because it is supported by the passage. The key evidence is: “Some are designed mainly for relaxation, while others are used to grow vegetables or support urban wildlife.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 1 says some are used to grow vegetables.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "Some are designed mainly for relaxation, while others are used to grow vegetables or support urban wildlife.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 3,
@@ -36,7 +77,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Rooftop gardens completely remove the need for drainage systems.",
           "answer": "FALSE",
-          "explanation": "Paragraph 3 says they do not remove the need for proper drains."
+          "explanation": {
+            "short": "Paragraph 3 says they do not remove the need for proper drains.",
+            "detailed": "The correct answer is FALSE because the statement is contradicted by the passage. The evidence says: “Rooftop gardens can also help manage rainwater.” This means the idea in the question does not match the information in the text. Paragraph 3 says they do not remove the need for proper drains.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 2,
+              "paragraphLabel": "Paragraph C",
+              "quote": "Rooftop gardens can also help manage rainwater.",
+              "relationship": "contradiction",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 4,
@@ -44,7 +98,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Most rooftop gardens are funded by international charities.",
           "answer": "NOT GIVEN",
-          "explanation": "The passage does not mention international charities or funding sources."
+          "explanation": {
+            "short": "The passage does not mention international charities or funding sources.",
+            "detailed": "The correct answer is NOT GIVEN because the passage gives related information, but it does not confirm the exact claim in the question. The closest relevant evidence is: “Rooftop gardens are becoming more common in dense cities where ground-level space is limited.” Since the missing detail is not stated, you should not infer it from general knowledge. The passage does not mention international charities or funding sources.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "Rooftop gardens are becoming more common in dense cities where ground-level space is limited.",
+              "relationship": "related_not_enough",
+              "note": "This is related to the question, but it does not provide enough information to confirm the statement."
+            }
+          ]
         }
       ]
     },
@@ -76,7 +143,20 @@
             }
           ],
           "answer": "B",
-          "explanation": "Paragraph 2 explains that soil and vegetation absorb sunlight and reduce heat transfer."
+          "explanation": {
+            "short": "Paragraph 2 explains that soil and vegetation absorb sunlight and reduce heat transfer.",
+            "detailed": "The correct answer is B because it matches the relevant information in the passage. The key evidence is: “Soil and vegetation can absorb sunlight and reduce the amount of heat transferred into a building.” Other options are less suitable because they either are not mentioned or change the meaning of the text. Paragraph 2 explains that soil and vegetation absorb sunlight and reduce heat transfer.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 1,
+              "paragraphLabel": "Paragraph B",
+              "quote": "Soil and vegetation can absorb sunlight and reduce the amount of heat transferred into a building.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 6,
@@ -102,7 +182,20 @@
             }
           ],
           "answer": "B",
-          "explanation": "Paragraph 4 says engineers must check whether the roof can support extra weight."
+          "explanation": {
+            "short": "Paragraph 4 says engineers must check whether the roof can support extra weight.",
+            "detailed": "The correct answer is B because it matches the relevant information in the passage. The key evidence is: “Engineers must check whether a roof can support the extra weight of soil, water, plants, and people.” Other options are less suitable because they either are not mentioned or change the meaning of the text. Paragraph 4 says engineers must check whether the roof can support extra weight.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 3,
+              "paragraphLabel": "Paragraph D",
+              "quote": "Engineers must check whether a roof can support the extra weight of soil, water, plants, and people.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 7,
@@ -128,7 +221,20 @@
             }
           ],
           "answer": "A",
-          "explanation": "The passage lists cooperation between architects, residents, managers, and authorities."
+          "explanation": {
+            "short": "The passage lists cooperation between architects, residents, managers, and authorities.",
+            "detailed": "The correct answer is A because it matches the relevant information in the passage. The key evidence is: “Rooftop gardens are becoming more common in dense cities where ground-level space is limited.” Other options are less suitable because they either are not mentioned or change the meaning of the text. The passage lists cooperation between architects, residents, managers, and authorities.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "Rooftop gardens are becoming more common in dense cities where ground-level space is limited.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         }
       ]
     },
@@ -145,7 +251,20 @@
             "ground-level space",
             "ground level space"
           ],
-          "explanation": "Paragraph 1 says ground-level space is limited."
+          "explanation": {
+            "short": "Paragraph 1 says ground-level space is limited.",
+            "detailed": "The correct answer is ground-level space / ground level space because it is supported by the passage. The key evidence is: “Rooftop gardens are becoming more common in dense cities where ground-level space is limited.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 1 says ground-level space is limited.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "Rooftop gardens are becoming more common in dense cities where ground-level space is limited.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 9,
@@ -155,7 +274,20 @@
           "answer": [
             "water"
           ],
-          "explanation": "Paragraph 3 says plants and soil hold part of the water temporarily."
+          "explanation": {
+            "short": "Paragraph 3 says plants and soil hold part of the water temporarily.",
+            "detailed": "The correct answer is water because it is supported by the passage. The key evidence is: “During heavy rainfall, plants and soil hold part of the water temporarily, slowing the speed at which it enters drainage systems.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 3 says plants and soil hold part of the water temporarily.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 2,
+              "paragraphLabel": "Paragraph C",
+              "quote": "During heavy rainfall, plants and soil hold part of the water temporarily, slowing the speed at which it enters drainage systems.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 10,
@@ -165,9 +297,25 @@
           "answer": [
             "dry periods"
           ],
-          "explanation": "Paragraph 4 says neglected gardens may fail to survive dry periods."
+          "explanation": {
+            "short": "Paragraph 4 says neglected gardens may fail to survive dry periods.",
+            "detailed": "The correct answer is dry periods because it is supported by the passage. The key evidence is: “Maintenance is also important because neglected gardens can become unsafe or fail to survive dry periods.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 4 says neglected gardens may fail to survive dry periods.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 3,
+              "paragraphLabel": "Paragraph D",
+              "quote": "Maintenance is also important because neglected gardens can become unsafe or fail to survive dry periods.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "questionCount": 10,
+  "level": "Practice",
+  "estimatedBandRange": "Practice only"
 }

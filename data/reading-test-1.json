@@ -3,11 +3,26 @@
   "title": "Reading Test 1: The Growth of Urban Cycling",
   "durationMinutes": 60,
   "passage": [
-    "In many large cities, cycling has changed from a leisure activity into a practical form of daily transport. This shift has been encouraged by rising fuel costs, crowded roads, and a growing awareness of environmental issues. City governments have also begun to redesign roads to make them safer for cyclists.",
-    "One of the most visible changes is the introduction of protected cycle lanes. Unlike painted lanes, protected lanes use physical barriers to separate cyclists from motor vehicles. Supporters argue that this makes cycling feel safer and encourages beginners to try travelling by bike. However, these lanes can be expensive to build, and they sometimes reduce the amount of road space available to cars and buses.",
-    "Bike-sharing schemes have also become common in urban areas. These schemes allow users to rent a bicycle for a short period and return it at another location. In theory, they make cycling more convenient because people do not need to own or maintain a bicycle. In practice, their success depends on careful planning. If bikes are not available near homes, stations, and workplaces, people are unlikely to use the service regularly.",
-    "Researchers have found that cycling infrastructure can bring wider benefits. Regular cycling may improve public health, reduce local air pollution, and lower pressure on public transport systems. Nevertheless, the benefits are not distributed equally. In some cities, new cycling routes are concentrated in wealthier districts, while areas with poorer transport links receive less investment.",
-    "The future of urban cycling is likely to depend on whether cities can treat it as part of a wider transport system rather than as a separate activity. Better connections between cycling routes, train stations, bus stops, and pedestrian areas could make short journeys easier and reduce dependence on private cars. For this reason, many planners now view cycling as a key element of sustainable urban mobility."
+    {
+      "label": "A",
+      "text": "In many large cities, cycling has changed from a leisure activity into a practical form of daily transport. This shift has been encouraged by rising fuel costs, crowded roads, and a growing awareness of environmental issues. City governments have also begun to redesign roads to make them safer for cyclists."
+    },
+    {
+      "label": "B",
+      "text": "One of the most visible changes is the introduction of protected cycle lanes. Unlike painted lanes, protected lanes use physical barriers to separate cyclists from motor vehicles. Supporters argue that this makes cycling feel safer and encourages beginners to try travelling by bike. However, these lanes can be expensive to build, and they sometimes reduce the amount of road space available to cars and buses."
+    },
+    {
+      "label": "C",
+      "text": "Bike-sharing schemes have also become common in urban areas. These schemes allow users to rent a bicycle for a short period and return it at another location. In theory, they make cycling more convenient because people do not need to own or maintain a bicycle. In practice, their success depends on careful planning. If bikes are not available near homes, stations, and workplaces, people are unlikely to use the service regularly."
+    },
+    {
+      "label": "D",
+      "text": "Researchers have found that cycling infrastructure can bring wider benefits. Regular cycling may improve public health, reduce local air pollution, and lower pressure on public transport systems. Nevertheless, the benefits are not distributed equally. In some cities, new cycling routes are concentrated in wealthier districts, while areas with poorer transport links receive less investment."
+    },
+    {
+      "label": "E",
+      "text": "The future of urban cycling is likely to depend on whether cities can treat it as part of a wider transport system rather than as a separate activity. Better connections between cycling routes, train stations, bus stops, and pedestrian areas could make short journeys easier and reduce dependence on private cars. For this reason, many planners now view cycling as a key element of sustainable urban mobility."
+    }
   ],
   "questionGroups": [
     {
@@ -20,7 +35,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Cycling is now used as a practical form of transport in many large cities.",
           "answer": "TRUE",
-          "explanation": "Paragraph 1 states that cycling has changed into a practical form of daily transport in many large cities."
+          "explanation": {
+            "short": "Paragraph 1 states that cycling has changed into a practical form of daily transport in many large cities.",
+            "detailed": "The correct answer is TRUE because it is supported by the passage. The key evidence is: “In many large cities, cycling has changed from a leisure activity into a practical form of daily transport.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 1 states that cycling has changed into a practical form of daily transport in many large cities.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "In many large cities, cycling has changed from a leisure activity into a practical form of daily transport.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 2,
@@ -28,7 +56,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Protected cycle lanes are cheaper to build than painted cycle lanes.",
           "answer": "NOT GIVEN",
-          "explanation": "The passage says protected lanes can be expensive, but it does not directly compare their cost with painted lanes."
+          "explanation": {
+            "short": "The passage says protected lanes can be expensive, but it does not directly compare their cost with painted lanes.",
+            "detailed": "The correct answer is NOT GIVEN because the passage gives related information, but it does not confirm the exact claim in the question. The closest relevant evidence is: “In many large cities, cycling has changed from a leisure activity into a practical form of daily transport.” Since the missing detail is not stated, you should not infer it from general knowledge. The passage says protected lanes can be expensive, but it does not directly compare their cost with painted lanes.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "In many large cities, cycling has changed from a leisure activity into a practical form of daily transport.",
+              "relationship": "related_not_enough",
+              "note": "This is related to the question, but it does not provide enough information to confirm the statement."
+            }
+          ]
         },
         {
           "number": 3,
@@ -36,7 +77,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Bike-sharing schemes remove the need for users to own or maintain a bicycle.",
           "answer": "TRUE",
-          "explanation": "Paragraph 3 says users do not need to own or maintain a bicycle."
+          "explanation": {
+            "short": "Paragraph 3 says users do not need to own or maintain a bicycle.",
+            "detailed": "The correct answer is TRUE because it is supported by the passage. The key evidence is: “Bike-sharing schemes have also become common in urban areas.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 3 says users do not need to own or maintain a bicycle.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 2,
+              "paragraphLabel": "Paragraph C",
+              "quote": "Bike-sharing schemes have also become common in urban areas.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 4,
@@ -44,7 +98,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "All districts receive equal investment in cycling infrastructure.",
           "answer": "FALSE",
-          "explanation": "Paragraph 4 says the benefits are not distributed equally and some areas receive less investment."
+          "explanation": {
+            "short": "Paragraph 4 says the benefits are not distributed equally and some areas receive less investment.",
+            "detailed": "The correct answer is FALSE because the statement is contradicted by the passage. The evidence says: “In some cities, new cycling routes are concentrated in wealthier districts, while areas with poorer transport links receive less investment.” This means the idea in the question does not match the information in the text. Paragraph 4 says the benefits are not distributed equally and some areas receive less investment.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 3,
+              "paragraphLabel": "Paragraph D",
+              "quote": "In some cities, new cycling routes are concentrated in wealthier districts, while areas with poorer transport links receive less investment.",
+              "relationship": "contradiction",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         }
       ]
     },
@@ -58,13 +125,38 @@
           "typeLabel": "Multiple choice",
           "question": "What is one reason city governments have encouraged cycling?",
           "options": [
-            { "value": "A", "text": "A reduction in the price of cars" },
-            { "value": "B", "text": "A growing awareness of environmental issues" },
-            { "value": "C", "text": "A lack of interest in public health" },
-            { "value": "D", "text": "A decline in train travel" }
+            {
+              "value": "A",
+              "text": "A reduction in the price of cars"
+            },
+            {
+              "value": "B",
+              "text": "A growing awareness of environmental issues"
+            },
+            {
+              "value": "C",
+              "text": "A lack of interest in public health"
+            },
+            {
+              "value": "D",
+              "text": "A decline in train travel"
+            }
           ],
           "answer": "B",
-          "explanation": "Paragraph 1 mentions environmental awareness as one reason for the shift towards cycling."
+          "explanation": {
+            "short": "Paragraph 1 mentions environmental awareness as one reason for the shift towards cycling.",
+            "detailed": "The correct answer is B because it matches the relevant information in the passage. The key evidence is: “This shift has been encouraged by rising fuel costs, crowded roads, and a growing awareness of environmental issues.” Other options are less suitable because they either are not mentioned or change the meaning of the text. Paragraph 1 mentions environmental awareness as one reason for the shift towards cycling.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "This shift has been encouraged by rising fuel costs, crowded roads, and a growing awareness of environmental issues.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 6,
@@ -72,13 +164,38 @@
           "typeLabel": "Multiple choice",
           "question": "According to the passage, what is a possible problem with protected cycle lanes?",
           "options": [
-            { "value": "A", "text": "They cannot be used by beginners" },
-            { "value": "B", "text": "They make roads more dangerous for cyclists" },
-            { "value": "C", "text": "They may reduce space for cars and buses" },
-            { "value": "D", "text": "They are illegal in many cities" }
+            {
+              "value": "A",
+              "text": "They cannot be used by beginners"
+            },
+            {
+              "value": "B",
+              "text": "They make roads more dangerous for cyclists"
+            },
+            {
+              "value": "C",
+              "text": "They may reduce space for cars and buses"
+            },
+            {
+              "value": "D",
+              "text": "They are illegal in many cities"
+            }
           ],
           "answer": "C",
-          "explanation": "Paragraph 2 says protected lanes sometimes reduce road space available to cars and buses."
+          "explanation": {
+            "short": "Paragraph 2 says protected lanes sometimes reduce road space available to cars and buses.",
+            "detailed": "The correct answer is C because it matches the relevant information in the passage. The key evidence is: “However, these lanes can be expensive to build, and they sometimes reduce the amount of road space available to cars and buses.” Other options are less suitable because they either are not mentioned or change the meaning of the text. Paragraph 2 says protected lanes sometimes reduce road space available to cars and buses.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 1,
+              "paragraphLabel": "Paragraph B",
+              "quote": "However, these lanes can be expensive to build, and they sometimes reduce the amount of road space available to cars and buses.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 7,
@@ -86,13 +203,38 @@
           "typeLabel": "Multiple choice",
           "question": "What does the final paragraph suggest about the future of urban cycling?",
           "options": [
-            { "value": "A", "text": "It should be separated from all other forms of transport" },
-            { "value": "B", "text": "It depends on better integration with wider transport systems" },
-            { "value": "C", "text": "It will mainly replace walking" },
-            { "value": "D", "text": "It is only useful in wealthy districts" }
+            {
+              "value": "A",
+              "text": "It should be separated from all other forms of transport"
+            },
+            {
+              "value": "B",
+              "text": "It depends on better integration with wider transport systems"
+            },
+            {
+              "value": "C",
+              "text": "It will mainly replace walking"
+            },
+            {
+              "value": "D",
+              "text": "It is only useful in wealthy districts"
+            }
           ],
           "answer": "B",
-          "explanation": "The final paragraph says cycling should be treated as part of a wider transport system."
+          "explanation": {
+            "short": "The final paragraph says cycling should be treated as part of a wider transport system.",
+            "detailed": "The correct answer is B because it matches the relevant information in the passage. The key evidence is: “The future of urban cycling is likely to depend on whether cities can treat it as part of a wider transport system rather than as a separate activity.” Other options are less suitable because they either are not mentioned or change the meaning of the text. The final paragraph says cycling should be treated as part of a wider transport system.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 4,
+              "paragraphLabel": "Paragraph E",
+              "quote": "The future of urban cycling is likely to depend on whether cities can treat it as part of a wider transport system rather than as a separate activity.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         }
       ]
     },
@@ -105,26 +247,77 @@
           "type": "short_answer",
           "typeLabel": "Short answer",
           "question": "What type of cycle lanes use physical barriers?",
-          "answer": ["protected cycle lanes", "protected lanes"],
-          "explanation": "Paragraph 2 explains that protected cycle lanes use physical barriers."
+          "answer": [
+            "protected cycle lanes",
+            "protected lanes"
+          ],
+          "explanation": {
+            "short": "Paragraph 2 explains that protected cycle lanes use physical barriers.",
+            "detailed": "The correct answer is protected cycle lanes / protected lanes because it is supported by the passage. The key evidence is: “Unlike painted lanes, protected lanes use physical barriers to separate cyclists from motor vehicles.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 2 explains that protected cycle lanes use physical barriers.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 1,
+              "paragraphLabel": "Paragraph B",
+              "quote": "Unlike painted lanes, protected lanes use physical barriers to separate cyclists from motor vehicles.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 9,
           "type": "short_answer",
           "typeLabel": "Short answer",
           "question": "What systems may experience less pressure as a result of cycling infrastructure?",
-          "answer": ["public transport systems", "public transport"],
-          "explanation": "Paragraph 4 says cycling infrastructure may lower pressure on public transport systems."
+          "answer": [
+            "public transport systems",
+            "public transport"
+          ],
+          "explanation": {
+            "short": "Paragraph 4 says cycling infrastructure may lower pressure on public transport systems.",
+            "detailed": "The correct answer is public transport systems / public transport because it is supported by the passage. The key evidence is: “Regular cycling may improve public health, reduce local air pollution, and lower pressure on public transport systems.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 4 says cycling infrastructure may lower pressure on public transport systems.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 3,
+              "paragraphLabel": "Paragraph D",
+              "quote": "Regular cycling may improve public health, reduce local air pollution, and lower pressure on public transport systems.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 10,
           "type": "short_answer",
           "typeLabel": "Short answer",
           "question": "What type of urban mobility is cycling described as part of?",
-          "answer": ["sustainable urban mobility", "urban mobility"],
-          "explanation": "The final sentence describes cycling as a key element of sustainable urban mobility."
+          "answer": [
+            "sustainable urban mobility",
+            "urban mobility"
+          ],
+          "explanation": {
+            "short": "The final sentence describes cycling as a key element of sustainable urban mobility.",
+            "detailed": "The correct answer is sustainable urban mobility / urban mobility because it is supported by the passage. The key evidence is: “In many large cities, cycling has changed from a leisure activity into a practical form of daily transport.” This evidence matches the meaning of the question, even if the wording is not exactly the same. The final sentence describes cycling as a key element of sustainable urban mobility.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "In many large cities, cycling has changed from a leisure activity into a practical form of daily transport.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "questionCount": 10,
+  "level": "Practice",
+  "estimatedBandRange": "Practice only"
 }

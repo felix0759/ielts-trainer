@@ -3,11 +3,26 @@
   "title": "Reading Test 4: The Rise of Hybrid Work",
   "durationMinutes": 60,
   "passage": [
-    "Remote work expanded rapidly when many organisations were forced to reduce office attendance. Although some employees have now returned to traditional workplaces, hybrid arrangements remain common in many industries. A hybrid worker may spend part of the week at home and part of the week in an office.",
-    "Supporters of hybrid work argue that it offers flexibility. Employees can avoid some commuting, organise focused tasks at home, and attend collaborative meetings in person. Employers may also reduce office costs if fewer desks are needed every day.",
-    "However, hybrid work can create communication problems. Informal conversations that happen naturally in an office may be harder to reproduce online. New employees, in particular, may find it more difficult to learn workplace culture if they rarely meet colleagues face to face.",
-    "Managers have responded by redesigning meetings and office days. Some teams use shared calendars to identify when people will be present. Others reserve office days for training, planning, and creative tasks that benefit from immediate discussion.",
-    "The long-term success of hybrid work depends less on the location of employees than on clear expectations. Organisations need to decide which tasks require physical presence, how performance will be measured, and how workers can remain included even when they are not in the same room."
+    {
+      "label": "A",
+      "text": "Remote work expanded rapidly when many organisations were forced to reduce office attendance. Although some employees have now returned to traditional workplaces, hybrid arrangements remain common in many industries. A hybrid worker may spend part of the week at home and part of the week in an office."
+    },
+    {
+      "label": "B",
+      "text": "Supporters of hybrid work argue that it offers flexibility. Employees can avoid some commuting, organise focused tasks at home, and attend collaborative meetings in person. Employers may also reduce office costs if fewer desks are needed every day."
+    },
+    {
+      "label": "C",
+      "text": "However, hybrid work can create communication problems. Informal conversations that happen naturally in an office may be harder to reproduce online. New employees, in particular, may find it more difficult to learn workplace culture if they rarely meet colleagues face to face."
+    },
+    {
+      "label": "D",
+      "text": "Managers have responded by redesigning meetings and office days. Some teams use shared calendars to identify when people will be present. Others reserve office days for training, planning, and creative tasks that benefit from immediate discussion."
+    },
+    {
+      "label": "E",
+      "text": "The long-term success of hybrid work depends less on the location of employees than on clear expectations. Organisations need to decide which tasks require physical presence, how performance will be measured, and how workers can remain included even when they are not in the same room."
+    }
   ],
   "questionGroups": [
     {
@@ -20,7 +35,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Hybrid workers may divide their week between home and an office.",
           "answer": "TRUE",
-          "explanation": "Paragraph 1 defines a hybrid worker in this way."
+          "explanation": {
+            "short": "Paragraph 1 defines a hybrid worker in this way.",
+            "detailed": "The correct answer is TRUE because it is supported by the passage. The key evidence is: “A hybrid worker may spend part of the week at home and part of the week in an office.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 1 defines a hybrid worker in this way.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "A hybrid worker may spend part of the week at home and part of the week in an office.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 2,
@@ -28,7 +56,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Hybrid work always increases the number of desks required.",
           "answer": "FALSE",
-          "explanation": "Paragraph 2 says employers may reduce office costs if fewer desks are needed."
+          "explanation": {
+            "short": "Paragraph 2 says employers may reduce office costs if fewer desks are needed.",
+            "detailed": "The correct answer is FALSE because the statement is contradicted by the passage. The evidence says: “Supporters of hybrid work argue that it offers flexibility.” This means the idea in the question does not match the information in the text. Paragraph 2 says employers may reduce office costs if fewer desks are needed.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 1,
+              "paragraphLabel": "Paragraph B",
+              "quote": "Supporters of hybrid work argue that it offers flexibility.",
+              "relationship": "contradiction",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 3,
@@ -36,7 +77,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "New employees may find workplace culture harder to learn with limited face-to-face contact.",
           "answer": "TRUE",
-          "explanation": "Paragraph 3 makes this point directly."
+          "explanation": {
+            "short": "Paragraph 3 makes this point directly.",
+            "detailed": "The correct answer is TRUE because it is supported by the passage. The key evidence is: “New employees, in particular, may find it more difficult to learn workplace culture if they rarely meet colleagues face to face.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 3 makes this point directly.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 2,
+              "paragraphLabel": "Paragraph C",
+              "quote": "New employees, in particular, may find it more difficult to learn workplace culture if they rarely meet colleagues face to face.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 4,
@@ -44,7 +98,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Every company has made Friday a compulsory office day.",
           "answer": "NOT GIVEN",
-          "explanation": "The passage discusses office days but does not mention Friday or compulsory rules for every company."
+          "explanation": {
+            "short": "The passage discusses office days but does not mention Friday or compulsory rules for every company.",
+            "detailed": "The correct answer is NOT GIVEN because the passage gives related information, but it does not confirm the exact claim in the question. The closest relevant evidence is: “A hybrid worker may spend part of the week at home and part of the week in an office.” Since the missing detail is not stated, you should not infer it from general knowledge. The passage discusses office days but does not mention Friday or compulsory rules for every company.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "A hybrid worker may spend part of the week at home and part of the week in an office.",
+              "relationship": "related_not_enough",
+              "note": "This is related to the question, but it does not provide enough information to confirm the statement."
+            }
+          ]
         }
       ]
     },
@@ -76,7 +143,20 @@
             }
           ],
           "answer": "A",
-          "explanation": "Paragraph 2 says employees can avoid some commuting."
+          "explanation": {
+            "short": "Paragraph 2 says employees can avoid some commuting.",
+            "detailed": "The correct answer is A because it matches the relevant information in the passage. The key evidence is: “Employees can avoid some commuting, organise focused tasks at home, and attend collaborative meetings in person.” Other options are less suitable because they either are not mentioned or change the meaning of the text. Paragraph 2 says employees can avoid some commuting.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 1,
+              "paragraphLabel": "Paragraph B",
+              "quote": "Employees can avoid some commuting, organise focused tasks at home, and attend collaborative meetings in person.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 6,
@@ -102,7 +182,20 @@
             }
           ],
           "answer": "B",
-          "explanation": "Paragraph 3 says such conversations are harder to reproduce online and links this to communication and culture."
+          "explanation": {
+            "short": "Paragraph 3 says such conversations are harder to reproduce online and links this to communication and culture.",
+            "detailed": "The correct answer is B because it matches the relevant information in the passage. The key evidence is: “Informal conversations that happen naturally in an office may be harder to reproduce online.” Other options are less suitable because they either are not mentioned or change the meaning of the text. Paragraph 3 says such conversations are harder to reproduce online and links this to communication and culture.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 2,
+              "paragraphLabel": "Paragraph C",
+              "quote": "Informal conversations that happen naturally in an office may be harder to reproduce online.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 7,
@@ -128,7 +221,20 @@
             }
           ],
           "answer": "B",
-          "explanation": "The final paragraph says success depends on clear expectations."
+          "explanation": {
+            "short": "The final paragraph says success depends on clear expectations.",
+            "detailed": "The correct answer is B because it matches the relevant information in the passage. The key evidence is: “The long-term success of hybrid work depends less on the location of employees than on clear expectations.” Other options are less suitable because they either are not mentioned or change the meaning of the text. The final paragraph says success depends on clear expectations.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 4,
+              "paragraphLabel": "Paragraph E",
+              "quote": "The long-term success of hybrid work depends less on the location of employees than on clear expectations.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         }
       ]
     },
@@ -144,7 +250,20 @@
           "answer": [
             "hybrid arrangements"
           ],
-          "explanation": "Paragraph 1 uses this phrase."
+          "explanation": {
+            "short": "Paragraph 1 uses this phrase.",
+            "detailed": "The correct answer is hybrid arrangements because it is supported by the passage. The key evidence is: “Although some employees have now returned to traditional workplaces, hybrid arrangements remain common in many industries.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 1 uses this phrase.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "Although some employees have now returned to traditional workplaces, hybrid arrangements remain common in many industries.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 9,
@@ -154,7 +273,20 @@
           "answer": [
             "shared calendars"
           ],
-          "explanation": "Paragraph 4 says some teams use shared calendars."
+          "explanation": {
+            "short": "Paragraph 4 says some teams use shared calendars.",
+            "detailed": "The correct answer is shared calendars because it is supported by the passage. The key evidence is: “Some teams use shared calendars to identify when people will be present.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 4 says some teams use shared calendars.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 3,
+              "paragraphLabel": "Paragraph D",
+              "quote": "Some teams use shared calendars to identify when people will be present.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 10,
@@ -164,9 +296,25 @@
           "answer": [
             "physical presence"
           ],
-          "explanation": "The final paragraph says organisations need to decide which tasks require physical presence."
+          "explanation": {
+            "short": "The final paragraph says organisations need to decide which tasks require physical presence.",
+            "detailed": "The correct answer is physical presence because it is supported by the passage. The key evidence is: “Organisations need to decide which tasks require physical presence, how performance will be measured, and how workers can remain included even when they are not in the same room.” This evidence matches the meaning of the question, even if the wording is not exactly the same. The final paragraph says organisations need to decide which tasks require physical presence.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 4,
+              "paragraphLabel": "Paragraph E",
+              "quote": "Organisations need to decide which tasks require physical presence, how performance will be measured, and how workers can remain included even when they are not in the same room.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "questionCount": 10,
+  "level": "Practice",
+  "estimatedBandRange": "Practice only"
 }

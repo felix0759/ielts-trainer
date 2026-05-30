@@ -3,11 +3,26 @@
   "title": "Reading Test 5: Traditional Markets and Local Communities",
   "durationMinutes": 60,
   "passage": [
-    "Traditional markets remain important in many towns even as supermarkets and online delivery services expand. A market is often more than a place to buy food; it can also be a social space where residents meet neighbours, exchange local news, and maintain cultural habits.",
-    "Fresh produce is a major attraction. Customers may prefer markets because they can ask sellers where fruit, vegetables, fish, or meat came from. In some places, shoppers also believe that market goods are fresher because they travel through shorter supply chains.",
-    "Markets can support small businesses by giving traders a relatively affordable place to sell products. A stall usually requires less investment than a permanent shop. This allows new sellers to test demand before committing to a larger business.",
-    "Nevertheless, traditional markets face challenges. Younger shoppers may prefer the convenience of online ordering, and market opening hours may not suit people with long working days. Weather can also affect sales when markets are held outdoors.",
-    "Some towns have modernised their markets without removing their local character. Improvements may include clearer signs, covered areas, card payments, and food courts. The aim is not to make markets identical to supermarkets, but to make them easier to use while preserving their community role."
+    {
+      "label": "A",
+      "text": "Traditional markets remain important in many towns even as supermarkets and online delivery services expand. A market is often more than a place to buy food; it can also be a social space where residents meet neighbours, exchange local news, and maintain cultural habits."
+    },
+    {
+      "label": "B",
+      "text": "Fresh produce is a major attraction. Customers may prefer markets because they can ask sellers where fruit, vegetables, fish, or meat came from. In some places, shoppers also believe that market goods are fresher because they travel through shorter supply chains."
+    },
+    {
+      "label": "C",
+      "text": "Markets can support small businesses by giving traders a relatively affordable place to sell products. A stall usually requires less investment than a permanent shop. This allows new sellers to test demand before committing to a larger business."
+    },
+    {
+      "label": "D",
+      "text": "Nevertheless, traditional markets face challenges. Younger shoppers may prefer the convenience of online ordering, and market opening hours may not suit people with long working days. Weather can also affect sales when markets are held outdoors."
+    },
+    {
+      "label": "E",
+      "text": "Some towns have modernised their markets without removing their local character. Improvements may include clearer signs, covered areas, card payments, and food courts. The aim is not to make markets identical to supermarkets, but to make them easier to use while preserving their community role."
+    }
   ],
   "questionGroups": [
     {
@@ -20,7 +35,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Traditional markets can function as social spaces.",
           "answer": "TRUE",
-          "explanation": "Paragraph 1 says markets can be social spaces where residents meet and exchange news."
+          "explanation": {
+            "short": "Paragraph 1 says markets can be social spaces where residents meet and exchange news.",
+            "detailed": "The correct answer is TRUE because it is supported by the passage. The key evidence is: “Traditional markets remain important in many towns even as supermarkets and online delivery services expand.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 1 says markets can be social spaces where residents meet and exchange news.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "Traditional markets remain important in many towns even as supermarkets and online delivery services expand.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 2,
@@ -28,7 +56,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "A market stall usually requires more investment than a permanent shop.",
           "answer": "FALSE",
-          "explanation": "Paragraph 3 says a stall usually requires less investment."
+          "explanation": {
+            "short": "Paragraph 3 says a stall usually requires less investment.",
+            "detailed": "The correct answer is FALSE because the statement is contradicted by the passage. The evidence says: “A stall usually requires less investment than a permanent shop.” This means the idea in the question does not match the information in the text. Paragraph 3 says a stall usually requires less investment.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 2,
+              "paragraphLabel": "Paragraph C",
+              "quote": "A stall usually requires less investment than a permanent shop.",
+              "relationship": "contradiction",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 3,
@@ -36,7 +77,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Outdoor markets can be affected by weather.",
           "answer": "TRUE",
-          "explanation": "Paragraph 4 states this directly."
+          "explanation": {
+            "short": "Paragraph 4 states this directly.",
+            "detailed": "The correct answer is TRUE because it is supported by the passage. The key evidence is: “Weather can also affect sales when markets are held outdoors.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 4 states this directly.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 3,
+              "paragraphLabel": "Paragraph D",
+              "quote": "Weather can also affect sales when markets are held outdoors.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 4,
@@ -44,7 +98,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "All traditional markets refuse card payments.",
           "answer": "NOT GIVEN",
-          "explanation": "The passage says some modernised markets include card payments, but does not say all markets refuse them."
+          "explanation": {
+            "short": "The passage says some modernised markets include card payments, but does not say all markets refuse them.",
+            "detailed": "The correct answer is NOT GIVEN because the passage gives related information, but it does not confirm the exact claim in the question. The closest relevant evidence is: “Traditional markets remain important in many towns even as supermarkets and online delivery services expand.” Since the missing detail is not stated, you should not infer it from general knowledge. The passage says some modernised markets include card payments, but does not say all markets refuse them.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "Traditional markets remain important in many towns even as supermarkets and online delivery services expand.",
+              "relationship": "related_not_enough",
+              "note": "This is related to the question, but it does not provide enough information to confirm the statement."
+            }
+          ]
         }
       ]
     },
@@ -76,7 +143,20 @@
             }
           ],
           "answer": "B",
-          "explanation": "Paragraph 2 says customers can ask sellers where products came from."
+          "explanation": {
+            "short": "Paragraph 2 says customers can ask sellers where products came from.",
+            "detailed": "The correct answer is B because it matches the relevant information in the passage. The key evidence is: “Customers may prefer markets because they can ask sellers where fruit, vegetables, fish, or meat came from.” Other options are less suitable because they either are not mentioned or change the meaning of the text. Paragraph 2 says customers can ask sellers where products came from.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 1,
+              "paragraphLabel": "Paragraph B",
+              "quote": "Customers may prefer markets because they can ask sellers where fruit, vegetables, fish, or meat came from.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 6,
@@ -102,7 +182,20 @@
             }
           ],
           "answer": "B",
-          "explanation": "Paragraph 3 explains that stalls let sellers test demand before larger investment."
+          "explanation": {
+            "short": "Paragraph 3 explains that stalls let sellers test demand before larger investment.",
+            "detailed": "The correct answer is B because it matches the relevant information in the passage. The key evidence is: “This allows new sellers to test demand before committing to a larger business.” Other options are less suitable because they either are not mentioned or change the meaning of the text. Paragraph 3 explains that stalls let sellers test demand before larger investment.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 2,
+              "paragraphLabel": "Paragraph C",
+              "quote": "This allows new sellers to test demand before committing to a larger business.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 7,
@@ -128,7 +221,20 @@
             }
           ],
           "answer": "B",
-          "explanation": "The final paragraph clearly states this aim."
+          "explanation": {
+            "short": "The final paragraph clearly states this aim.",
+            "detailed": "The correct answer is B because it matches the relevant information in the passage. The key evidence is: “The aim is not to make markets identical to supermarkets, but to make them easier to use while preserving their community role.” Other options are less suitable because they either are not mentioned or change the meaning of the text. The final paragraph clearly states this aim.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 4,
+              "paragraphLabel": "Paragraph E",
+              "quote": "The aim is not to make markets identical to supermarkets, but to make them easier to use while preserving their community role.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         }
       ]
     },
@@ -144,7 +250,20 @@
           "answer": [
             "cultural habits"
           ],
-          "explanation": "Paragraph 1 mentions cultural habits."
+          "explanation": {
+            "short": "Paragraph 1 mentions cultural habits.",
+            "detailed": "The correct answer is cultural habits because it is supported by the passage. The key evidence is: “A market is often more than a place to buy food; it can also be a social space where residents meet neighbours, exchange local news, and maintain cultural habits.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 1 mentions cultural habits.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "A market is often more than a place to buy food; it can also be a social space where residents meet neighbours, exchange local news, and maintain cultural habits.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 9,
@@ -154,7 +273,20 @@
           "answer": [
             "shorter supply chains"
           ],
-          "explanation": "Paragraph 2 uses this phrase."
+          "explanation": {
+            "short": "Paragraph 2 uses this phrase.",
+            "detailed": "The correct answer is shorter supply chains because it is supported by the passage. The key evidence is: “In some places, shoppers also believe that market goods are fresher because they travel through shorter supply chains.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 2 uses this phrase.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 1,
+              "paragraphLabel": "Paragraph B",
+              "quote": "In some places, shoppers also believe that market goods are fresher because they travel through shorter supply chains.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 10,
@@ -164,9 +296,25 @@
           "answer": [
             "covered areas"
           ],
-          "explanation": "The final paragraph mentions covered areas as an improvement."
+          "explanation": {
+            "short": "The final paragraph mentions covered areas as an improvement.",
+            "detailed": "The correct answer is covered areas because it is supported by the passage. The key evidence is: “Improvements may include clearer signs, covered areas, card payments, and food courts.” This evidence matches the meaning of the question, even if the wording is not exactly the same. The final paragraph mentions covered areas as an improvement.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 4,
+              "paragraphLabel": "Paragraph E",
+              "quote": "Improvements may include clearer signs, covered areas, card payments, and food courts.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "questionCount": 10,
+  "level": "Practice",
+  "estimatedBandRange": "Practice only"
 }

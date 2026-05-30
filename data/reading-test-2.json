@@ -3,11 +3,26 @@
   "title": "Reading Test 2: The Changing Role of Libraries",
   "durationMinutes": 60,
   "passage": [
-    "Community libraries have changed considerably over the last century. In the past, many libraries were quiet rooms where visitors borrowed printed books and read newspapers. Today, they often provide internet access, digital catalogues, study spaces, children’s activities, and advice sessions for local residents.",
-    "One reason for this change is the development of digital information. As more services moved online, libraries became important places for people who did not have reliable internet access at home. Staff members began to help users complete online forms, search for jobs, and use basic computer software.",
-    "Libraries also support social connection. In some neighbourhoods, weekly reading groups and craft clubs are among the few regular activities open to people of different ages. This role is especially valuable for older residents, new parents, and people who have recently moved to an area.",
-    "However, libraries face financial pressure. Local authorities may reduce opening hours or close smaller branches when budgets are limited. Supporters argue that these decisions save money only in the short term because libraries also reduce pressure on other public services by improving literacy, confidence, and access to information.",
-    "The future library is unlikely to be defined only by the number of books on its shelves. Instead, its value may depend on how effectively it combines physical space, digital support, and community activity. For many users, the library remains a public place where help can be found without payment or appointment."
+    {
+      "label": "A",
+      "text": "Community libraries have changed considerably over the last century. In the past, many libraries were quiet rooms where visitors borrowed printed books and read newspapers. Today, they often provide internet access, digital catalogues, study spaces, children’s activities, and advice sessions for local residents."
+    },
+    {
+      "label": "B",
+      "text": "One reason for this change is the development of digital information. As more services moved online, libraries became important places for people who did not have reliable internet access at home. Staff members began to help users complete online forms, search for jobs, and use basic computer software."
+    },
+    {
+      "label": "C",
+      "text": "Libraries also support social connection. In some neighbourhoods, weekly reading groups and craft clubs are among the few regular activities open to people of different ages. This role is especially valuable for older residents, new parents, and people who have recently moved to an area."
+    },
+    {
+      "label": "D",
+      "text": "However, libraries face financial pressure. Local authorities may reduce opening hours or close smaller branches when budgets are limited. Supporters argue that these decisions save money only in the short term because libraries also reduce pressure on other public services by improving literacy, confidence, and access to information."
+    },
+    {
+      "label": "E",
+      "text": "The future library is unlikely to be defined only by the number of books on its shelves. Instead, its value may depend on how effectively it combines physical space, digital support, and community activity. For many users, the library remains a public place where help can be found without payment or appointment."
+    }
   ],
   "questionGroups": [
     {
@@ -20,7 +35,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Libraries today may offer services beyond lending printed books.",
           "answer": "TRUE",
-          "explanation": "Paragraph 1 lists internet access, study spaces, activities, and advice sessions."
+          "explanation": {
+            "short": "Paragraph 1 lists internet access, study spaces, activities, and advice sessions.",
+            "detailed": "The correct answer is TRUE because it is supported by the passage. The key evidence is: “In the past, many libraries were quiet rooms where visitors borrowed printed books and read newspapers.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 1 lists internet access, study spaces, activities, and advice sessions.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "In the past, many libraries were quiet rooms where visitors borrowed printed books and read newspapers.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 2,
@@ -28,7 +56,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "All library staff are required to have advanced programming skills.",
           "answer": "NOT GIVEN",
-          "explanation": "The passage says staff help with basic software and online tasks, but it does not mention programming requirements."
+          "explanation": {
+            "short": "The passage says staff help with basic software and online tasks, but it does not mention programming requirements.",
+            "detailed": "The correct answer is NOT GIVEN because the passage gives related information, but it does not confirm the exact claim in the question. The closest relevant evidence is: “Community libraries have changed considerably over the last century.” Since the missing detail is not stated, you should not infer it from general knowledge. The passage says staff help with basic software and online tasks, but it does not mention programming requirements.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "Community libraries have changed considerably over the last century.",
+              "relationship": "related_not_enough",
+              "note": "This is related to the question, but it does not provide enough information to confirm the statement."
+            }
+          ]
         },
         {
           "number": 3,
@@ -36,7 +77,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Reading groups and craft clubs can help people connect socially.",
           "answer": "TRUE",
-          "explanation": "Paragraph 3 says these activities support social connection."
+          "explanation": {
+            "short": "Paragraph 3 says these activities support social connection.",
+            "detailed": "The correct answer is TRUE because it is supported by the passage. The key evidence is: “In some neighbourhoods, weekly reading groups and craft clubs are among the few regular activities open to people of different ages.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 3 says these activities support social connection.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 2,
+              "paragraphLabel": "Paragraph C",
+              "quote": "In some neighbourhoods, weekly reading groups and craft clubs are among the few regular activities open to people of different ages.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 4,
@@ -44,7 +98,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Closing smaller branches always improves literacy in the community.",
           "answer": "FALSE",
-          "explanation": "Paragraph 4 suggests closures may reduce services that support literacy and access to information."
+          "explanation": {
+            "short": "Paragraph 4 suggests closures may reduce services that support literacy and access to information.",
+            "detailed": "The correct answer is FALSE because the statement is contradicted by the passage. The evidence says: “Local authorities may reduce opening hours or close smaller branches when budgets are limited.” This means the idea in the question does not match the information in the text. Paragraph 4 suggests closures may reduce services that support literacy and access to information.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 3,
+              "paragraphLabel": "Paragraph D",
+              "quote": "Local authorities may reduce opening hours or close smaller branches when budgets are limited.",
+              "relationship": "contradiction",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         }
       ]
     },
@@ -76,7 +143,20 @@
             }
           ],
           "answer": "B",
-          "explanation": "Paragraph 2 says libraries helped people without reliable internet at home."
+          "explanation": {
+            "short": "Paragraph 2 says libraries helped people without reliable internet at home.",
+            "detailed": "The correct answer is B because it matches the relevant information in the passage. The key evidence is: “As more services moved online, libraries became important places for people who did not have reliable internet access at home.” Other options are less suitable because they either are not mentioned or change the meaning of the text. Paragraph 2 says libraries helped people without reliable internet at home.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 1,
+              "paragraphLabel": "Paragraph B",
+              "quote": "As more services moved online, libraries became important places for people who did not have reliable internet access at home.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 6,
@@ -102,7 +182,20 @@
             }
           ],
           "answer": "B",
-          "explanation": "Paragraph 3 specifically mentions older residents."
+          "explanation": {
+            "short": "Paragraph 3 specifically mentions older residents.",
+            "detailed": "The correct answer is B because it matches the relevant information in the passage. The key evidence is: “This role is especially valuable for older residents, new parents, and people who have recently moved to an area.” Other options are less suitable because they either are not mentioned or change the meaning of the text. Paragraph 3 specifically mentions older residents.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 2,
+              "paragraphLabel": "Paragraph C",
+              "quote": "This role is especially valuable for older residents, new parents, and people who have recently moved to an area.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 7,
@@ -128,7 +221,20 @@
             }
           ],
           "answer": "B",
-          "explanation": "The final paragraph says future value depends on combining physical space, digital support, and community activity."
+          "explanation": {
+            "short": "The final paragraph says future value depends on combining physical space, digital support, and community activity.",
+            "detailed": "The correct answer is B because it matches the relevant information in the passage. The key evidence is: “The future library is unlikely to be defined only by the number of books on its shelves.” Other options are less suitable because they either are not mentioned or change the meaning of the text. The final paragraph says future value depends on combining physical space, digital support, and community activity.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 4,
+              "paragraphLabel": "Paragraph E",
+              "quote": "The future library is unlikely to be defined only by the number of books on its shelves.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         }
       ]
     },
@@ -144,7 +250,20 @@
           "answer": [
             "digital catalogues"
           ],
-          "explanation": "Paragraph 1 mentions digital catalogues."
+          "explanation": {
+            "short": "Paragraph 1 mentions digital catalogues.",
+            "detailed": "The correct answer is digital catalogues because it is supported by the passage. The key evidence is: “Today, they often provide internet access, digital catalogues, study spaces, children’s activities, and advice sessions for local residents.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 1 mentions digital catalogues.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "Today, they often provide internet access, digital catalogues, study spaces, children’s activities, and advice sessions for local residents.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 9,
@@ -154,7 +273,20 @@
           "answer": [
             "financial pressure"
           ],
-          "explanation": "Paragraph 4 begins by saying libraries face financial pressure."
+          "explanation": {
+            "short": "Paragraph 4 begins by saying libraries face financial pressure.",
+            "detailed": "The correct answer is financial pressure because it is supported by the passage. The key evidence is: “However, libraries face financial pressure.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 4 begins by saying libraries face financial pressure.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 3,
+              "paragraphLabel": "Paragraph D",
+              "quote": "However, libraries face financial pressure.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 10,
@@ -164,9 +296,25 @@
           "answer": [
             "public place"
           ],
-          "explanation": "The final sentence describes the library as a public place."
+          "explanation": {
+            "short": "The final sentence describes the library as a public place.",
+            "detailed": "The correct answer is public place because it is supported by the passage. The key evidence is: “In the past, many libraries were quiet rooms where visitors borrowed printed books and read newspapers.” This evidence matches the meaning of the question, even if the wording is not exactly the same. The final sentence describes the library as a public place.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "In the past, many libraries were quiet rooms where visitors borrowed printed books and read newspapers.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "questionCount": 10,
+  "level": "Practice",
+  "estimatedBandRange": "Practice only"
 }

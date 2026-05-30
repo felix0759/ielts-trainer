@@ -5,6 +5,7 @@ let currentTest = null;
 let timerSeconds = 60 * 60;
 let timerInterval = null;
 let submitted = false;
+let activeEvidence = null;
 
 const titleEl = document.getElementById('test-title');
 const passageEl = document.getElementById('passage');
@@ -23,6 +24,15 @@ function normaliseAnswer(value) {
     .toLowerCase();
 }
 
+function escapeHtml(value) {
+  return String(value || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
 function isCorrect(userAnswer, correctAnswer) {
   if (Array.isArray(correctAnswer)) {
     return correctAnswer.some((answer) => normaliseAnswer(answer) === normaliseAnswer(userAnswer));
@@ -32,6 +42,26 @@ function isCorrect(userAnswer, correctAnswer) {
 
 function formatAnswer(answer) {
   return Array.isArray(answer) ? answer.join(' / ') : answer;
+}
+
+function getExplanation(question) {
+  if (!question.explanation) {
+    return { short: '', detailed: '', strategy: '' };
+  }
+
+  if (typeof question.explanation === 'string') {
+    return {
+      short: question.explanation,
+      detailed: question.explanation,
+      strategy: ''
+    };
+  }
+
+  return {
+    short: question.explanation.short || '',
+    detailed: question.explanation.detailed || question.explanation.short || '',
+    strategy: question.explanation.strategy || ''
+  };
 }
 
 function getBandEstimate(score, total) {
@@ -45,10 +75,48 @@ function getBandEstimate(score, total) {
   return 'Below 4.0';
 }
 
+function getParagraphObject(paragraph, index) {
+  if (typeof paragraph === 'string') {
+    return { label: String(index + 1), text: paragraph };
+  }
+  return {
+    label: paragraph.label || String(index + 1),
+    text: paragraph.text || ''
+  };
+}
+
+function highlightQuote(text, quote, relationship) {
+  const safeText = escapeHtml(text);
+  if (!quote) return safeText;
+
+  const index = text.toLowerCase().indexOf(String(quote).toLowerCase());
+  if (index === -1) return safeText;
+
+  const before = escapeHtml(text.slice(0, index));
+  const match = escapeHtml(text.slice(index, index + quote.length));
+  const after = escapeHtml(text.slice(index + quote.length));
+
+  return `${before}<mark class="evidence-highlight ${relationship || 'support'}">${match}</mark>${after}`;
+}
+
 function renderPassage(test) {
   titleEl.textContent = test.title;
+
   passageEl.innerHTML = test.passage
-    .map((paragraph) => `<p>${paragraph}</p>`)
+    .map((paragraph, index) => {
+      const paragraphData = getParagraphObject(paragraph, index);
+      const evidenceForThisParagraph = activeEvidence && activeEvidence.paragraphIndex === index ? activeEvidence : null;
+      const paragraphText = evidenceForThisParagraph
+        ? highlightQuote(paragraphData.text, evidenceForThisParagraph.quote, evidenceForThisParagraph.relationship)
+        : escapeHtml(paragraphData.text);
+
+      return `
+        <p id="paragraph-${index}" class="passage-paragraph ${evidenceForThisParagraph ? 'active-paragraph' : ''}">
+          <span class="paragraph-label">${escapeHtml(paragraphData.label)}</span>
+          <span>${paragraphText}</span>
+        </p>
+      `;
+    })
     .join('');
 }
 
@@ -79,6 +147,17 @@ function renderQuestion(question) {
       <option value="NOT GIVEN">NOT GIVEN</option>
     `;
     card.appendChild(select);
+  } else if (question.type === 'yes_no_not_given') {
+    const select = document.createElement('select');
+    select.className = 'answer-select';
+    select.name = `q${question.number}`;
+    select.innerHTML = `
+      <option value="">Select answer</option>
+      <option value="YES">YES</option>
+      <option value="NO">NO</option>
+      <option value="NOT GIVEN">NOT GIVEN</option>
+    `;
+    card.appendChild(select);
   } else if (question.type === 'multiple_choice') {
     const options = document.createElement('div');
     options.className = 'options-list';
@@ -87,8 +166,8 @@ function renderQuestion(question) {
       const label = document.createElement('label');
       label.className = 'option-item';
       label.innerHTML = `
-        <input type="radio" name="q${question.number}" value="${option.value}">
-        <span>${option.value}. ${option.text}</span>
+        <input type="radio" name="q${question.number}" value="${escapeHtml(option.value)}">
+        <span>${escapeHtml(option.value)}. ${escapeHtml(option.text)}</span>
       `;
       options.appendChild(label);
     });
@@ -111,8 +190,8 @@ function renderQuestions(test) {
 
   test.questionGroups.forEach((group) => {
     const groupHeader = document.createElement('section');
-    groupHeader.className = 'question-card';
-    groupHeader.innerHTML = `<h3>${group.title}</h3><p>${group.instructions}</p>`;
+    groupHeader.className = 'question-card question-group-header';
+    groupHeader.innerHTML = `<h3>${escapeHtml(group.title)}</h3><p>${escapeHtml(group.instructions)}</p>`;
     formEl.appendChild(groupHeader);
 
     group.questions.forEach((question) => {
@@ -163,6 +242,37 @@ function startTimer() {
   timerInterval = setInterval(updateTimer, 1000);
 }
 
+function showEvidence(questionNumber, evidenceIndex) {
+  const question = getAllQuestions().find((item) => Number(item.number) === Number(questionNumber));
+  if (!question || !question.evidence || !question.evidence[evidenceIndex]) return;
+
+  activeEvidence = question.evidence[evidenceIndex];
+  renderPassage(currentTest);
+
+  const paragraph = document.getElementById(`paragraph-${activeEvidence.paragraphIndex}`);
+  if (paragraph) {
+    paragraph.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+}
+
+function buildEvidenceHtml(question) {
+  if (!question.evidence || question.evidence.length === 0) return '';
+
+  const evidenceItems = question.evidence.map((item, index) => `
+    <div class="evidence-item ${escapeHtml(item.relationship || 'support')}">
+      <div class="evidence-topline">
+        <strong>${escapeHtml(item.paragraphLabel || `Paragraph ${item.paragraphIndex + 1}`)}</strong>
+        <span>${escapeHtml((item.relationship || 'support').replaceAll('_', ' '))}</span>
+      </div>
+      <blockquote>${escapeHtml(item.quote)}</blockquote>
+      <p>${escapeHtml(item.note || '')}</p>
+      <button class="small-button evidence-button" type="button" data-question="${question.number}" data-evidence="${index}">Show evidence in passage</button>
+    </div>
+  `).join('');
+
+  return `<div class="evidence-list">${evidenceItems}</div>`;
+}
+
 function submitAnswers() {
   if (submitted || !currentTest) return;
 
@@ -178,6 +288,7 @@ function submitAnswers() {
     const userAnswer = getUserAnswer(question);
     const correct = isCorrect(userAnswer, question.answer);
     const card = formEl.querySelector(`[data-question-number="${question.number}"]`);
+    const explanation = getExplanation(question);
 
     if (correct) score += 1;
 
@@ -187,9 +298,16 @@ function submitAnswers() {
     feedback.className = 'feedback';
     feedback.innerHTML = `
       <strong>${correct ? 'Correct' : 'Incorrect'}</strong><br>
-      Your answer: ${userAnswer || '<em>No answer</em>'}<br>
-      Correct answer: ${formatAnswer(question.answer)}<br>
-      ${question.explanation ? `<span>${question.explanation}</span>` : ''}
+      Your answer: ${userAnswer ? escapeHtml(userAnswer) : '<em>No answer</em>'}<br>
+      Correct answer: ${escapeHtml(formatAnswer(question.answer))}
+
+      <details class="explanation-details" open>
+        <summary>Explanation</summary>
+        ${explanation.short ? `<p><strong>Quick reason:</strong> ${escapeHtml(explanation.short)}</p>` : ''}
+        ${explanation.detailed ? `<p><strong>Detailed reason:</strong> ${escapeHtml(explanation.detailed)}</p>` : ''}
+        ${explanation.strategy ? `<p><strong>IELTS strategy:</strong> ${escapeHtml(explanation.strategy)}</p>` : ''}
+        ${buildEvidenceHtml(question)}
+      </details>
     `;
     card.appendChild(feedback);
   });
@@ -232,6 +350,11 @@ async function loadTest() {
 
 formEl.addEventListener('input', updateProgress);
 formEl.addEventListener('change', updateProgress);
+formEl.addEventListener('click', (event) => {
+  const button = event.target.closest('.evidence-button');
+  if (!button) return;
+  showEvidence(button.dataset.question, Number(button.dataset.evidence));
+});
 submitButton.addEventListener('click', submitAnswers);
 resetButton.addEventListener('click', () => window.location.reload());
 increaseFontButton.addEventListener('click', () => passageEl.classList.toggle('large-text'));

@@ -435,3 +435,105 @@ h3 {
     display: block;
   }
 }
+
+/* Detailed explanation and evidence highlighting */
+.passage-paragraph {
+  position: relative;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.paragraph-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 26px;
+  height: 26px;
+  margin-right: 8px;
+  border-radius: 999px;
+  background: #eef2ff;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.active-paragraph {
+  border-left: 4px solid #64748b;
+  padding-left: 14px;
+  background: #f8fafc;
+}
+
+.evidence-highlight {
+  border-radius: 5px;
+  padding: 2px 3px;
+}
+
+.evidence-highlight.support,
+.evidence-item.support {
+  background: #ecfdf5;
+}
+
+.evidence-highlight.contradiction,
+.evidence-item.contradiction {
+  background: #fef2f2;
+}
+
+.evidence-highlight.related_not_enough,
+.evidence-item.related_not_enough {
+  background: #eff6ff;
+}
+
+.evidence-highlight.paraphrase,
+.evidence-item.paraphrase {
+  background: #f5f3ff;
+}
+
+.explanation-details {
+  margin-top: 12px;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 12px;
+}
+
+.explanation-details summary {
+  cursor: pointer;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.explanation-details p {
+  margin: 8px 0;
+}
+
+.evidence-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.evidence-item {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.evidence-topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.evidence-topline span {
+  color: var(--muted);
+  text-transform: capitalize;
+}
+
+.evidence-item blockquote {
+  margin: 8px 0;
+  padding-left: 12px;
+  border-left: 3px solid #cbd5e1;
+  font-style: italic;
+}
+
+.evidence-button {
+  margin-top: 6px;
+}

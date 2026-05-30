@@ -3,11 +3,26 @@
   "title": "Reading Test 6: Citizen Science and Environmental Research",
   "durationMinutes": 60,
   "passage": [
-    "Citizen science refers to research projects in which members of the public help collect or analyse data. The approach is not new, but mobile phones and online platforms have made it easier for large numbers of volunteers to participate.",
-    "Environmental studies often use citizen science. Volunteers may record bird sightings, measure air quality, photograph plants, or report changes in local rivers. When many people contribute observations over a wide area, researchers can identify patterns that would be difficult to see from a small professional team alone.",
-    "The quality of data is an important concern. Volunteers may have different levels of training, and mistakes can occur when species are misidentified or measurements are taken incorrectly. To reduce this problem, projects often provide clear instructions, simple reporting tools, and expert checks of unusual results.",
-    "Citizen science can also have educational benefits. Participants may become more interested in local environments after observing them carefully. Schools sometimes use these projects to connect science lessons with real-world investigation.",
-    "For researchers, the best citizen science projects are carefully designed. They ask questions that volunteers can realistically help answer, and they explain how the collected data will be used. When participants understand the purpose of their work, they are more likely to remain involved."
+    {
+      "label": "A",
+      "text": "Citizen science refers to research projects in which members of the public help collect or analyse data. The approach is not new, but mobile phones and online platforms have made it easier for large numbers of volunteers to participate."
+    },
+    {
+      "label": "B",
+      "text": "Environmental studies often use citizen science. Volunteers may record bird sightings, measure air quality, photograph plants, or report changes in local rivers. When many people contribute observations over a wide area, researchers can identify patterns that would be difficult to see from a small professional team alone."
+    },
+    {
+      "label": "C",
+      "text": "The quality of data is an important concern. Volunteers may have different levels of training, and mistakes can occur when species are misidentified or measurements are taken incorrectly. To reduce this problem, projects often provide clear instructions, simple reporting tools, and expert checks of unusual results."
+    },
+    {
+      "label": "D",
+      "text": "Citizen science can also have educational benefits. Participants may become more interested in local environments after observing them carefully. Schools sometimes use these projects to connect science lessons with real-world investigation."
+    },
+    {
+      "label": "E",
+      "text": "For researchers, the best citizen science projects are carefully designed. They ask questions that volunteers can realistically help answer, and they explain how the collected data will be used. When participants understand the purpose of their work, they are more likely to remain involved."
+    }
   ],
   "questionGroups": [
     {
@@ -20,7 +35,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Citizen science always requires volunteers to work in laboratories.",
           "answer": "FALSE",
-          "explanation": "The passage gives examples such as bird sightings, air quality, and local rivers, not only laboratory work."
+          "explanation": {
+            "short": "The passage gives examples such as bird sightings, air quality, and local rivers, not only laboratory work.",
+            "detailed": "The correct answer is FALSE because the statement is contradicted by the passage. The evidence says: “Citizen science refers to research projects in which members of the public help collect or analyse data.” This means the idea in the question does not match the information in the text. The passage gives examples such as bird sightings, air quality, and local rivers, not only laboratory work.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "Citizen science refers to research projects in which members of the public help collect or analyse data.",
+              "relationship": "contradiction",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 2,
@@ -28,7 +56,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Mobile phones have made public participation easier.",
           "answer": "TRUE",
-          "explanation": "Paragraph 1 says mobile phones and online platforms have made participation easier."
+          "explanation": {
+            "short": "Paragraph 1 says mobile phones and online platforms have made participation easier.",
+            "detailed": "The correct answer is TRUE because it is supported by the passage. The key evidence is: “The approach is not new, but mobile phones and online platforms have made it easier for large numbers of volunteers to participate.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 1 says mobile phones and online platforms have made participation easier.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "The approach is not new, but mobile phones and online platforms have made it easier for large numbers of volunteers to participate.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 3,
@@ -36,7 +77,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Mistakes can happen if species are misidentified.",
           "answer": "TRUE",
-          "explanation": "Paragraph 3 states this directly."
+          "explanation": {
+            "short": "Paragraph 3 states this directly.",
+            "detailed": "The correct answer is TRUE because it is supported by the passage. The key evidence is: “Volunteers may have different levels of training, and mistakes can occur when species are misidentified or measurements are taken incorrectly.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 3 states this directly.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 2,
+              "paragraphLabel": "Paragraph C",
+              "quote": "Volunteers may have different levels of training, and mistakes can occur when species are misidentified or measurements are taken incorrectly.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 4,
@@ -44,7 +98,20 @@
           "typeLabel": "True / False / Not Given",
           "question": "Citizen science projects are legally required in all schools.",
           "answer": "NOT GIVEN",
-          "explanation": "The passage says schools sometimes use them, but mentions no legal requirement."
+          "explanation": {
+            "short": "The passage says schools sometimes use them, but mentions no legal requirement.",
+            "detailed": "The correct answer is NOT GIVEN because the passage gives related information, but it does not confirm the exact claim in the question. The closest relevant evidence is: “Citizen science refers to research projects in which members of the public help collect or analyse data.” Since the missing detail is not stated, you should not infer it from general knowledge. The passage says schools sometimes use them, but mentions no legal requirement.",
+            "strategy": "For True / False / Not Given questions, compare the exact meaning of the statement with the passage. Choose TRUE if it agrees, FALSE if it contradicts, and NOT GIVEN if the information is missing."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "Citizen science refers to research projects in which members of the public help collect or analyse data.",
+              "relationship": "related_not_enough",
+              "note": "This is related to the question, but it does not provide enough information to confirm the statement."
+            }
+          ]
         }
       ]
     },
@@ -76,7 +143,20 @@
             }
           ],
           "answer": "B",
-          "explanation": "Paragraph 2 says wide-area observations help identify patterns."
+          "explanation": {
+            "short": "Paragraph 2 says wide-area observations help identify patterns.",
+            "detailed": "The correct answer is B because it matches the relevant information in the passage. The key evidence is: “When many people contribute observations over a wide area, researchers can identify patterns that would be difficult to see from a small professional team alone.” Other options are less suitable because they either are not mentioned or change the meaning of the text. Paragraph 2 says wide-area observations help identify patterns.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 1,
+              "paragraphLabel": "Paragraph B",
+              "quote": "When many people contribute observations over a wide area, researchers can identify patterns that would be difficult to see from a small professional team alone.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 6,
@@ -102,7 +182,20 @@
             }
           ],
           "answer": "C",
-          "explanation": "Paragraph 3 lists clear instructions, simple tools, and expert checks."
+          "explanation": {
+            "short": "Paragraph 3 lists clear instructions, simple tools, and expert checks.",
+            "detailed": "The correct answer is C because it matches the relevant information in the passage. The key evidence is: “To reduce this problem, projects often provide clear instructions, simple reporting tools, and expert checks of unusual results.” Other options are less suitable because they either are not mentioned or change the meaning of the text. Paragraph 3 lists clear instructions, simple tools, and expert checks.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 2,
+              "paragraphLabel": "Paragraph C",
+              "quote": "To reduce this problem, projects often provide clear instructions, simple reporting tools, and expert checks of unusual results.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 7,
@@ -128,7 +221,20 @@
             }
           ],
           "answer": "A",
-          "explanation": "The final paragraph says participants are more likely to remain involved when they understand the purpose."
+          "explanation": {
+            "short": "The final paragraph says participants are more likely to remain involved when they understand the purpose.",
+            "detailed": "The correct answer is A because it matches the relevant information in the passage. The key evidence is: “When participants understand the purpose of their work, they are more likely to remain involved.” Other options are less suitable because they either are not mentioned or change the meaning of the text. The final paragraph says participants are more likely to remain involved when they understand the purpose.",
+            "strategy": "For multiple choice questions, locate the relevant part of the passage first, then choose the option that best matches the meaning. Be careful with distractors that reuse words from the text but change the idea."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 4,
+              "paragraphLabel": "Paragraph E",
+              "quote": "When participants understand the purpose of their work, they are more likely to remain involved.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         }
       ]
     },
@@ -144,7 +250,20 @@
           "answer": [
             "online platforms"
           ],
-          "explanation": "Paragraph 1 mentions online platforms."
+          "explanation": {
+            "short": "Paragraph 1 mentions online platforms.",
+            "detailed": "The correct answer is online platforms because it is supported by the passage. The key evidence is: “The approach is not new, but mobile phones and online platforms have made it easier for large numbers of volunteers to participate.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 1 mentions online platforms.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 0,
+              "paragraphLabel": "Paragraph A",
+              "quote": "The approach is not new, but mobile phones and online platforms have made it easier for large numbers of volunteers to participate.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 9,
@@ -154,7 +273,20 @@
           "answer": [
             "unusual results"
           ],
-          "explanation": "Paragraph 3 says expert checks of unusual results."
+          "explanation": {
+            "short": "Paragraph 3 says expert checks of unusual results.",
+            "detailed": "The correct answer is unusual results because it is supported by the passage. The key evidence is: “To reduce this problem, projects often provide clear instructions, simple reporting tools, and expert checks of unusual results.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 3 says expert checks of unusual results.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 2,
+              "paragraphLabel": "Paragraph C",
+              "quote": "To reduce this problem, projects often provide clear instructions, simple reporting tools, and expert checks of unusual results.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         },
         {
           "number": 10,
@@ -165,9 +297,25 @@
             "real-world investigation",
             "real world investigation"
           ],
-          "explanation": "Paragraph 4 uses this phrase."
+          "explanation": {
+            "short": "Paragraph 4 uses this phrase.",
+            "detailed": "The correct answer is real-world investigation / real world investigation because it is supported by the passage. The key evidence is: “Schools sometimes use these projects to connect science lessons with real-world investigation.” This evidence matches the meaning of the question, even if the wording is not exactly the same. Paragraph 4 uses this phrase.",
+            "strategy": "For completion or short-answer questions, use the exact meaning from the passage and check the word limit carefully."
+          },
+          "evidence": [
+            {
+              "paragraphIndex": 3,
+              "paragraphLabel": "Paragraph D",
+              "quote": "Schools sometimes use these projects to connect science lessons with real-world investigation.",
+              "relationship": "support",
+              "note": "This is the key passage evidence used to decide the answer."
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "questionCount": 10,
+  "level": "Practice",
+  "estimatedBandRange": "Practice only"
 }
