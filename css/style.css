@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+.site-header {
+  background: #1f2937;
+  color: white;
+  padding: 32px 20px;
+  text-align: center;
+}
+
+.site-header h1 {
+  margin: 0 0 8px;
+}
+
+.small-header {
+  padding: 20px;
+}
+
+.back-link {
+  color: #dbeafe;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 900px;
+  margin: 32px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.test-list {
+  display: grid;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.test-card {
+  display: block;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+  background: #fafafa;
+}
+
+.test-card:hover {
+  background: #eef2ff;
+}
+
+.test-card h3 {
+  margin-top: 0;
+}
+
+.test-card span {
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.test-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 24px auto;
+  padding: 0 20px;
+}
+
+.passage-panel,
+.questions-panel {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.passage {
+  white-space: pre-line;
+}
+
+.timer {
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.question-block {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 16px 0;
+}
+
+.question-block label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.question-block input,
+.question-block select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.primary-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background: #1d4ed8;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 8px;
+  background: #ecfdf5;
+  border: 1px solid #bbf7d0;
+}
+
+.result-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #d1fae5;
+}
+
+.correct {
+  color: #15803d;
+  font-weight: bold;
+}
+
+.incorrect {
+  color: #b91c1c;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  color: #6b7280;
+}
+
+@media (max-width: 800px) {
+  .test-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .passage-panel,
+  .questions-panel {
+    max-height: none;
+  }
+}

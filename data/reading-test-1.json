@@ -1,0 +1,37 @@
+{
+  "id": "reading-test-1",
+  "title": "Reading Test 1: The Rise of Urban Cycling",
+  "passage": "In many cities around the world, cycling has become an increasingly popular form of transport. This change has been influenced by several factors, including traffic congestion, environmental concerns, and the rising cost of public transport.\n\nFor many years, city planning focused mainly on cars. Roads were widened, car parks were built, and cycling was often treated as a leisure activity rather than a serious transport option. However, this attitude has changed in recent decades. Many local governments now see cycling as a way to reduce pollution and improve public health.\n\nOne major advantage of cycling is that it requires less space than driving. A single car lane can carry far fewer people than a protected cycle lane during busy periods. In addition, bicycles do not produce direct emissions, making them useful in cities that are trying to improve air quality.\n\nDespite these advantages, cycling is not always easy to promote. Safety remains one of the biggest concerns. In cities without protected cycling routes, many people feel nervous about sharing the road with cars and buses. Weather can also affect cycling rates, especially in places with long winters or heavy rainfall.\n\nSome cities have tried to solve these problems by building connected cycling networks. These networks allow people to travel across the city without suddenly finding that a cycle lane has disappeared. Other cities have introduced bike-sharing schemes, allowing residents and visitors to rent bicycles for short journeys.\n\nAlthough cycling alone cannot solve every transport problem, it can form an important part of a wider urban transport system. When combined with trains, buses, and pedestrian-friendly streets, cycling can help create cleaner and more efficient cities.",
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false_not_given",
+      "question": "Cycling has become more popular partly because public transport has become more expensive.",
+      "answer": "TRUE"
+    },
+    {
+      "number": 2,
+      "type": "true_false_not_given",
+      "question": "City planning has always treated cycling as the most important transport method.",
+      "answer": "FALSE"
+    },
+    {
+      "number": 3,
+      "type": "true_false_not_given",
+      "question": "The passage says electric bicycles are more popular than traditional bicycles.",
+      "answer": "NOT GIVEN"
+    },
+    {
+      "number": 4,
+      "type": "short_answer",
+      "question": "What type of cycling routes can make people feel safer?",
+      "answer": "protected cycling routes"
+    },
+    {
+      "number": 5,
+      "type": "short_answer",
+      "question": "What schemes allow people to rent bicycles for short journeys?",
+      "answer": "bike-sharing schemes"
+    }
+  ]
+}

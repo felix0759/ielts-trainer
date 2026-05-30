@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reading Test</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header small-header">
+    <h1>IELTS Reading Practice</h1>
+    <a href="index.html" class="back-link">← Back to tests</a>
+  </header>
+
+  <main class="test-layout">
+    <section class="passage-panel card">
+      <h2 id="test-title">Loading...</h2>
+      <p class="timer">Time: <span id="timer">00:00</span></p>
+      <article id="passage" class="passage"></article>
+    </section>
+
+    <section class="questions-panel card">
+      <h2>Questions</h2>
+      <form id="questions-form"></form>
+      <button id="submit-btn" class="primary-btn">Submit Answers</button>
+      <div id="result" class="result hidden"></div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
