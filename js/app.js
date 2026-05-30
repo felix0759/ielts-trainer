@@ -1,112 +1,239 @@
-const form = document.getElementById('questions-form');
-const passageElement = document.getElementById('passage');
-const titleElement = document.getElementById('test-title');
-const submitButton = document.getElementById('submit-btn');
-const resultElement = document.getElementById('result');
-const timerElement = document.getElementById('timer');
+const params = new URLSearchParams(window.location.search);
+const testId = params.get('test') || 'reading-test-1';
 
 let currentTest = null;
-let seconds = 0;
+let timerSeconds = 60 * 60;
+let timerInterval = null;
+let submitted = false;
 
-function getTestIdFromUrl() {
-  const params = new URLSearchParams(window.location.search);
-  return params.get('test') || 'reading-test-1';
+const titleEl = document.getElementById('test-title');
+const passageEl = document.getElementById('passage');
+const formEl = document.getElementById('answers-form');
+const resultEl = document.getElementById('result');
+const timerEl = document.getElementById('timer');
+const progressEl = document.getElementById('question-progress');
+const submitButton = document.getElementById('submit-button');
+const resetButton = document.getElementById('reset-test');
+const increaseFontButton = document.getElementById('increase-font');
+
+function normaliseAnswer(value) {
+  return String(value || '')
+    .trim()
+    .replace(/\s+/g, ' ')
+    .toLowerCase();
 }
 
-function normaliseAnswer(answer) {
-  return String(answer).trim().toLowerCase();
+function isCorrect(userAnswer, correctAnswer) {
+  if (Array.isArray(correctAnswer)) {
+    return correctAnswer.some((answer) => normaliseAnswer(answer) === normaliseAnswer(userAnswer));
+  }
+  return normaliseAnswer(userAnswer) === normaliseAnswer(correctAnswer);
 }
 
-function startTimer() {
-  setInterval(() => {
-    seconds += 1;
-    const minutes = Math.floor(seconds / 60);
-    const remainingSeconds = seconds % 60;
-    timerElement.textContent = `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
-  }, 1000);
+function formatAnswer(answer) {
+  return Array.isArray(answer) ? answer.join(' / ') : answer;
+}
+
+function getBandEstimate(score, total) {
+  const percentage = total === 0 ? 0 : score / total;
+  if (percentage >= 0.9) return '8.5 to 9.0';
+  if (percentage >= 0.8) return '7.5 to 8.0';
+  if (percentage >= 0.7) return '6.5 to 7.0';
+  if (percentage >= 0.6) return '6.0';
+  if (percentage >= 0.5) return '5.0 to 5.5';
+  if (percentage >= 0.4) return '4.0 to 4.5';
+  return 'Below 4.0';
+}
+
+function renderPassage(test) {
+  titleEl.textContent = test.title;
+  passageEl.innerHTML = test.passage
+    .map((paragraph) => `<p>${paragraph}</p>`)
+    .join('');
 }
 
 function renderQuestion(question) {
-  const block = document.createElement('div');
-  block.className = 'question-block';
+  const card = document.createElement('div');
+  card.className = 'question-card';
+  card.dataset.questionNumber = question.number;
 
-  const label = document.createElement('label');
-  label.setAttribute('for', `q${question.number}`);
-  label.textContent = `${question.number}. ${question.question}`;
-  block.appendChild(label);
+  const meta = document.createElement('div');
+  meta.className = 'question-meta';
+  meta.innerHTML = `<span>Question ${question.number}</span><span>${question.typeLabel}</span>`;
+
+  const prompt = document.createElement('p');
+  prompt.className = 'question-text';
+  prompt.textContent = question.question;
+
+  card.appendChild(meta);
+  card.appendChild(prompt);
 
   if (question.type === 'true_false_not_given') {
     const select = document.createElement('select');
-    select.id = `q${question.number}`;
+    select.className = 'answer-select';
     select.name = `q${question.number}`;
+    select.innerHTML = `
+      <option value="">Select answer</option>
+      <option value="TRUE">TRUE</option>
+      <option value="FALSE">FALSE</option>
+      <option value="NOT GIVEN">NOT GIVEN</option>
+    `;
+    card.appendChild(select);
+  } else if (question.type === 'multiple_choice') {
+    const options = document.createElement('div');
+    options.className = 'options-list';
 
-    ['', 'TRUE', 'FALSE', 'NOT GIVEN'].forEach(optionText => {
-      const option = document.createElement('option');
-      option.value = optionText;
-      option.textContent = optionText || 'Select an answer';
-      select.appendChild(option);
+    question.options.forEach((option) => {
+      const label = document.createElement('label');
+      label.className = 'option-item';
+      label.innerHTML = `
+        <input type="radio" name="q${question.number}" value="${option.value}">
+        <span>${option.value}. ${option.text}</span>
+      `;
+      options.appendChild(label);
     });
 
-    block.appendChild(select);
+    card.appendChild(options);
   } else {
     const input = document.createElement('input');
-    input.id = `q${question.number}`;
+    input.className = 'answer-input';
     input.name = `q${question.number}`;
     input.type = 'text';
-    input.placeholder = 'Type your answer';
-    block.appendChild(input);
+    input.placeholder = 'Type your answer here';
+    card.appendChild(input);
   }
 
-  return block;
+  return card;
 }
 
-function renderTest(test) {
-  titleElement.textContent = test.title;
-  passageElement.textContent = test.passage;
-  form.innerHTML = '';
+function renderQuestions(test) {
+  formEl.innerHTML = '';
 
-  test.questions.forEach(question => {
-    form.appendChild(renderQuestion(question));
+  test.questionGroups.forEach((group) => {
+    const groupHeader = document.createElement('section');
+    groupHeader.className = 'question-card';
+    groupHeader.innerHTML = `<h3>${group.title}</h3><p>${group.instructions}</p>`;
+    formEl.appendChild(groupHeader);
+
+    group.questions.forEach((question) => {
+      formEl.appendChild(renderQuestion(question));
+    });
   });
 }
 
-function markAnswers() {
+function getAllQuestions() {
+  return currentTest.questionGroups.flatMap((group) => group.questions);
+}
+
+function getUserAnswer(question) {
+  const name = `q${question.number}`;
+
+  if (question.type === 'multiple_choice') {
+    const checked = formEl.querySelector(`input[name="${name}"]:checked`);
+    return checked ? checked.value : '';
+  }
+
+  const field = formEl.querySelector(`[name="${name}"]`);
+  return field ? field.value : '';
+}
+
+function updateProgress() {
+  if (!currentTest) return;
+
+  const questions = getAllQuestions();
+  const answered = questions.filter((question) => normaliseAnswer(getUserAnswer(question)) !== '').length;
+  progressEl.textContent = `${answered}/${questions.length} answered`;
+}
+
+function updateTimer() {
+  const minutes = Math.floor(timerSeconds / 60);
+  const seconds = timerSeconds % 60;
+  timerEl.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+  if (timerSeconds <= 0 && !submitted) {
+    submitAnswers();
+    return;
+  }
+
+  timerSeconds -= 1;
+}
+
+function startTimer() {
+  updateTimer();
+  timerInterval = setInterval(updateTimer, 1000);
+}
+
+function submitAnswers() {
+  if (submitted || !currentTest) return;
+
+  submitted = true;
+  clearInterval(timerInterval);
+  submitButton.disabled = true;
+  submitButton.textContent = 'Submitted';
+
+  const questions = getAllQuestions();
   let score = 0;
-  let feedbackHtml = '';
 
-  currentTest.questions.forEach(question => {
-    const input = document.querySelector(`[name="q${question.number}"]`);
-    const userAnswer = input ? input.value : '';
-    const isCorrect = normaliseAnswer(userAnswer) === normaliseAnswer(question.answer);
+  questions.forEach((question) => {
+    const userAnswer = getUserAnswer(question);
+    const correct = isCorrect(userAnswer, question.answer);
+    const card = formEl.querySelector(`[data-question-number="${question.number}"]`);
 
-    if (isCorrect) {
-      score += 1;
-    }
+    if (correct) score += 1;
 
-    feedbackHtml += `
-      <div class="result-item">
-        <p><strong>Question ${question.number}</strong>: <span class="${isCorrect ? 'correct' : 'incorrect'}">${isCorrect ? 'Correct' : 'Incorrect'}</span></p>
-        <p>Your answer: ${userAnswer || 'No answer'}</p>
-        <p>Correct answer: ${question.answer}</p>
-      </div>
+    card.classList.add(correct ? 'correct' : 'incorrect');
+
+    const feedback = document.createElement('div');
+    feedback.className = 'feedback';
+    feedback.innerHTML = `
+      <strong>${correct ? 'Correct' : 'Incorrect'}</strong><br>
+      Your answer: ${userAnswer || '<em>No answer</em>'}<br>
+      Correct answer: ${formatAnswer(question.answer)}<br>
+      ${question.explanation ? `<span>${question.explanation}</span>` : ''}
     `;
+    card.appendChild(feedback);
   });
 
-  resultElement.innerHTML = `
-    <h2>Your Score: ${score}/${currentTest.questions.length}</h2>
-    ${feedbackHtml}
+  const band = getBandEstimate(score, questions.length);
+  const percentage = Math.round((score / questions.length) * 100);
+
+  resultEl.classList.remove('hidden');
+  resultEl.innerHTML = `
+    <h3>Your result</h3>
+    <p>This is an estimated practice result based on this short sample test.</p>
+    <div class="result-grid">
+      <div class="result-item"><span>Raw score</span><strong>${score}/${questions.length}</strong></div>
+      <div class="result-item"><span>Percentage</span><strong>${percentage}%</strong></div>
+      <div class="result-item"><span>Estimated band</span><strong>${band}</strong></div>
+    </div>
   `;
-  resultElement.classList.remove('hidden');
-  resultElement.scrollIntoView({ behavior: 'smooth' });
+
+  resultEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 async function loadTest() {
-  const testId = getTestIdFromUrl();
-  const response = await fetch(`data/${testId}.json`);
-  currentTest = await response.json();
-  renderTest(currentTest);
-  startTimer();
+  try {
+    const response = await fetch(`data/${testId}.json`);
+    if (!response.ok) throw new Error('Could not load test data.');
+
+    currentTest = await response.json();
+    timerSeconds = currentTest.durationMinutes * 60;
+
+    renderPassage(currentTest);
+    renderQuestions(currentTest);
+    updateProgress();
+    startTimer();
+  } catch (error) {
+    titleEl.textContent = 'Test not found';
+    passageEl.innerHTML = '<p>Sorry, this test could not be loaded.</p>';
+    console.error(error);
+  }
 }
 
-submitButton.addEventListener('click', markAnswers);
+formEl.addEventListener('input', updateProgress);
+formEl.addEventListener('change', updateProgress);
+submitButton.addEventListener('click', submitAnswers);
+resetButton.addEventListener('click', () => window.location.reload());
+increaseFontButton.addEventListener('click', () => passageEl.classList.toggle('large-text'));
+
 loadTest();

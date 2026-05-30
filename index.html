@@ -8,27 +8,55 @@
 </head>
 <body>
   <header class="site-header">
-    <h1>IELTS Reading Practice</h1>
-    <p>Free basic IELTS Reading mock tests for practice.</p>
+    <div class="container header-inner">
+      <a class="brand" href="index.html">IELTS Reading Practice</a>
+      <span class="badge">Free online resource</span>
+    </div>
   </header>
 
-  <main class="container">
-    <section class="card">
-      <h2>Available Reading Tests</h2>
-      <p>Choose a test below. Your answers are checked instantly in the browser.</p>
+  <main class="container home-layout">
+    <section class="hero card">
+      <p class="eyebrow">Academic Reading</p>
+      <h1>Practise IELTS Reading in a simple computer-based format.</h1>
+      <p class="hero-text">
+        Choose a practice test, answer the questions, submit your answers, and receive instant feedback in your browser.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="test.html?test=reading-test-1">Start Reading Test 1</a>
+        <a class="button secondary" href="#tests">View all tests</a>
+      </div>
+    </section>
 
-      <div class="test-list">
-        <a class="test-card" href="test.html?test=reading-test-1">
-          <h3>Reading Test 1</h3>
-          <p>Practice passage with True / False / Not Given and short-answer questions.</p>
-          <span>Start test →</span>
-        </a>
+    <section class="stats-grid" aria-label="Website features">
+      <article class="mini-card">
+        <strong>Timed practice</strong>
+        <span>60-minute reading timer</span>
+      </article>
+      <article class="mini-card">
+        <strong>Instant marking</strong>
+        <span>Score shown immediately</span>
+      </article>
+      <article class="mini-card">
+        <strong>No account needed</strong>
+        <span>Free and open access</span>
+      </article>
+    </section>
+
+    <section id="tests" class="card">
+      <div class="section-heading">
+        <p class="eyebrow">Question bank</p>
+        <h2>Available Reading Tests</h2>
+      </div>
+      <div id="test-list" class="test-list">
+        <p>Loading tests...</p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>IELTS Reading Practice Website</p>
+    <div class="container">IELTS Reading Practice Website</div>
   </footer>
+
+  <script src="js/home.js"></script>
 </body>
 </html>

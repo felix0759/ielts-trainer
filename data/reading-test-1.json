@@ -1,37 +1,130 @@
 {
   "id": "reading-test-1",
-  "title": "Reading Test 1: The Rise of Urban Cycling",
-  "passage": "In many cities around the world, cycling has become an increasingly popular form of transport. This change has been influenced by several factors, including traffic congestion, environmental concerns, and the rising cost of public transport.\n\nFor many years, city planning focused mainly on cars. Roads were widened, car parks were built, and cycling was often treated as a leisure activity rather than a serious transport option. However, this attitude has changed in recent decades. Many local governments now see cycling as a way to reduce pollution and improve public health.\n\nOne major advantage of cycling is that it requires less space than driving. A single car lane can carry far fewer people than a protected cycle lane during busy periods. In addition, bicycles do not produce direct emissions, making them useful in cities that are trying to improve air quality.\n\nDespite these advantages, cycling is not always easy to promote. Safety remains one of the biggest concerns. In cities without protected cycling routes, many people feel nervous about sharing the road with cars and buses. Weather can also affect cycling rates, especially in places with long winters or heavy rainfall.\n\nSome cities have tried to solve these problems by building connected cycling networks. These networks allow people to travel across the city without suddenly finding that a cycle lane has disappeared. Other cities have introduced bike-sharing schemes, allowing residents and visitors to rent bicycles for short journeys.\n\nAlthough cycling alone cannot solve every transport problem, it can form an important part of a wider urban transport system. When combined with trains, buses, and pedestrian-friendly streets, cycling can help create cleaner and more efficient cities.",
-  "questions": [
+  "title": "Reading Test 1: The Growth of Urban Cycling",
+  "durationMinutes": 60,
+  "passage": [
+    "In many large cities, cycling has changed from a leisure activity into a practical form of daily transport. This shift has been encouraged by rising fuel costs, crowded roads, and a growing awareness of environmental issues. City governments have also begun to redesign roads to make them safer for cyclists.",
+    "One of the most visible changes is the introduction of protected cycle lanes. Unlike painted lanes, protected lanes use physical barriers to separate cyclists from motor vehicles. Supporters argue that this makes cycling feel safer and encourages beginners to try travelling by bike. However, these lanes can be expensive to build, and they sometimes reduce the amount of road space available to cars and buses.",
+    "Bike-sharing schemes have also become common in urban areas. These schemes allow users to rent a bicycle for a short period and return it at another location. In theory, they make cycling more convenient because people do not need to own or maintain a bicycle. In practice, their success depends on careful planning. If bikes are not available near homes, stations, and workplaces, people are unlikely to use the service regularly.",
+    "Researchers have found that cycling infrastructure can bring wider benefits. Regular cycling may improve public health, reduce local air pollution, and lower pressure on public transport systems. Nevertheless, the benefits are not distributed equally. In some cities, new cycling routes are concentrated in wealthier districts, while areas with poorer transport links receive less investment.",
+    "The future of urban cycling is likely to depend on whether cities can treat it as part of a wider transport system rather than as a separate activity. Better connections between cycling routes, train stations, bus stops, and pedestrian areas could make short journeys easier and reduce dependence on private cars. For this reason, many planners now view cycling as a key element of sustainable urban mobility."
+  ],
+  "questionGroups": [
     {
-      "number": 1,
-      "type": "true_false_not_given",
-      "question": "Cycling has become more popular partly because public transport has become more expensive.",
-      "answer": "TRUE"
+      "title": "Questions 1-4",
+      "instructions": "Do the following statements agree with the information in the passage? Choose TRUE, FALSE, or NOT GIVEN.",
+      "questions": [
+        {
+          "number": 1,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Cycling is now used as a practical form of transport in many large cities.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 1 states that cycling has changed into a practical form of daily transport in many large cities."
+        },
+        {
+          "number": 2,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Protected cycle lanes are cheaper to build than painted cycle lanes.",
+          "answer": "NOT GIVEN",
+          "explanation": "The passage says protected lanes can be expensive, but it does not directly compare their cost with painted lanes."
+        },
+        {
+          "number": 3,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Bike-sharing schemes remove the need for users to own or maintain a bicycle.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 3 says users do not need to own or maintain a bicycle."
+        },
+        {
+          "number": 4,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "All districts receive equal investment in cycling infrastructure.",
+          "answer": "FALSE",
+          "explanation": "Paragraph 4 says the benefits are not distributed equally and some areas receive less investment."
+        }
+      ]
     },
     {
-      "number": 2,
-      "type": "true_false_not_given",
-      "question": "City planning has always treated cycling as the most important transport method.",
-      "answer": "FALSE"
+      "title": "Questions 5-7",
+      "instructions": "Choose the correct letter, A, B, C, or D.",
+      "questions": [
+        {
+          "number": 5,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "What is one reason city governments have encouraged cycling?",
+          "options": [
+            { "value": "A", "text": "A reduction in the price of cars" },
+            { "value": "B", "text": "A growing awareness of environmental issues" },
+            { "value": "C", "text": "A lack of interest in public health" },
+            { "value": "D", "text": "A decline in train travel" }
+          ],
+          "answer": "B",
+          "explanation": "Paragraph 1 mentions environmental awareness as one reason for the shift towards cycling."
+        },
+        {
+          "number": 6,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "According to the passage, what is a possible problem with protected cycle lanes?",
+          "options": [
+            { "value": "A", "text": "They cannot be used by beginners" },
+            { "value": "B", "text": "They make roads more dangerous for cyclists" },
+            { "value": "C", "text": "They may reduce space for cars and buses" },
+            { "value": "D", "text": "They are illegal in many cities" }
+          ],
+          "answer": "C",
+          "explanation": "Paragraph 2 says protected lanes sometimes reduce road space available to cars and buses."
+        },
+        {
+          "number": 7,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "What does the final paragraph suggest about the future of urban cycling?",
+          "options": [
+            { "value": "A", "text": "It should be separated from all other forms of transport" },
+            { "value": "B", "text": "It depends on better integration with wider transport systems" },
+            { "value": "C", "text": "It will mainly replace walking" },
+            { "value": "D", "text": "It is only useful in wealthy districts" }
+          ],
+          "answer": "B",
+          "explanation": "The final paragraph says cycling should be treated as part of a wider transport system."
+        }
+      ]
     },
     {
-      "number": 3,
-      "type": "true_false_not_given",
-      "question": "The passage says electric bicycles are more popular than traditional bicycles.",
-      "answer": "NOT GIVEN"
-    },
-    {
-      "number": 4,
-      "type": "short_answer",
-      "question": "What type of cycling routes can make people feel safer?",
-      "answer": "protected cycling routes"
-    },
-    {
-      "number": 5,
-      "type": "short_answer",
-      "question": "What schemes allow people to rent bicycles for short journeys?",
-      "answer": "bike-sharing schemes"
+      "title": "Questions 8-10",
+      "instructions": "Answer the questions below. Write no more than two words from the passage for each answer.",
+      "questions": [
+        {
+          "number": 8,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What type of cycle lanes use physical barriers?",
+          "answer": ["protected cycle lanes", "protected lanes"],
+          "explanation": "Paragraph 2 explains that protected cycle lanes use physical barriers."
+        },
+        {
+          "number": 9,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What systems may experience less pressure as a result of cycling infrastructure?",
+          "answer": ["public transport systems", "public transport"],
+          "explanation": "Paragraph 4 says cycling infrastructure may lower pressure on public transport systems."
+        },
+        {
+          "number": 10,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What type of urban mobility is cycling described as part of?",
+          "answer": ["sustainable urban mobility", "urban mobility"],
+          "explanation": "The final sentence describes cycling as a key element of sustainable urban mobility."
+        }
+      ]
     }
   ]
 }

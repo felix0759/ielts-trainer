@@ -3,27 +3,48 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Reading Test</title>
+  <title>IELTS Reading Test</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header class="site-header small-header">
-    <h1>IELTS Reading Practice</h1>
-    <a href="index.html" class="back-link">← Back to tests</a>
+  <header class="test-header">
+    <div class="container test-header-inner">
+      <a class="back-link" href="index.html">← Back to tests</a>
+      <div class="test-status">
+        <span id="question-progress">0 answered</span>
+        <span id="timer" class="timer">60:00</span>
+      </div>
+    </div>
   </header>
 
-  <main class="test-layout">
-    <section class="passage-panel card">
-      <h2 id="test-title">Loading...</h2>
-      <p class="timer">Time: <span id="timer">00:00</span></p>
-      <article id="passage" class="passage"></article>
+  <main class="test-shell">
+    <section class="passage-panel" aria-label="Reading passage">
+      <div class="panel-toolbar">
+        <div>
+          <p class="eyebrow">Reading passage</p>
+          <h1 id="test-title">Loading...</h1>
+        </div>
+        <button id="increase-font" class="small-button" type="button">A+</button>
+      </div>
+      <article id="passage" class="passage-content"></article>
     </section>
 
-    <section class="questions-panel card">
-      <h2>Questions</h2>
-      <form id="questions-form"></form>
-      <button id="submit-btn" class="primary-btn">Submit Answers</button>
-      <div id="result" class="result hidden"></div>
+    <section class="questions-panel" aria-label="Questions">
+      <div class="panel-toolbar sticky-toolbar">
+        <div>
+          <p class="eyebrow">Questions</p>
+          <h2>Answer sheet</h2>
+        </div>
+        <button id="reset-test" class="small-button" type="button">Reset</button>
+      </div>
+
+      <form id="answers-form" class="questions-form"></form>
+
+      <div class="submit-bar">
+        <button id="submit-button" class="button primary full-width" type="button">Submit Answers</button>
+      </div>
+
+      <section id="result" class="result-box hidden" aria-live="polite"></section>
     </section>
   </main>
 
