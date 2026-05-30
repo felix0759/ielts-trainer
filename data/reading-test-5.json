@@ -1,0 +1,172 @@
+{
+  "id": "reading-test-5",
+  "title": "Reading Test 5: Traditional Markets and Local Communities",
+  "durationMinutes": 60,
+  "passage": [
+    "Traditional markets remain important in many towns even as supermarkets and online delivery services expand. A market is often more than a place to buy food; it can also be a social space where residents meet neighbours, exchange local news, and maintain cultural habits.",
+    "Fresh produce is a major attraction. Customers may prefer markets because they can ask sellers where fruit, vegetables, fish, or meat came from. In some places, shoppers also believe that market goods are fresher because they travel through shorter supply chains.",
+    "Markets can support small businesses by giving traders a relatively affordable place to sell products. A stall usually requires less investment than a permanent shop. This allows new sellers to test demand before committing to a larger business.",
+    "Nevertheless, traditional markets face challenges. Younger shoppers may prefer the convenience of online ordering, and market opening hours may not suit people with long working days. Weather can also affect sales when markets are held outdoors.",
+    "Some towns have modernised their markets without removing their local character. Improvements may include clearer signs, covered areas, card payments, and food courts. The aim is not to make markets identical to supermarkets, but to make them easier to use while preserving their community role."
+  ],
+  "questionGroups": [
+    {
+      "title": "Questions 1-4",
+      "instructions": "Do the following statements agree with the information in the passage? Choose TRUE, FALSE, or NOT GIVEN.",
+      "questions": [
+        {
+          "number": 1,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Traditional markets can function as social spaces.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 1 says markets can be social spaces where residents meet and exchange news."
+        },
+        {
+          "number": 2,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "A market stall usually requires more investment than a permanent shop.",
+          "answer": "FALSE",
+          "explanation": "Paragraph 3 says a stall usually requires less investment."
+        },
+        {
+          "number": 3,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Outdoor markets can be affected by weather.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 4 states this directly."
+        },
+        {
+          "number": 4,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "All traditional markets refuse card payments.",
+          "answer": "NOT GIVEN",
+          "explanation": "The passage says some modernised markets include card payments, but does not say all markets refuse them."
+        }
+      ]
+    },
+    {
+      "title": "Questions 5-7",
+      "instructions": "Choose the correct letter, A, B, C, or D.",
+      "questions": [
+        {
+          "number": 5,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "Why may customers prefer market produce?",
+          "options": [
+            {
+              "value": "A",
+              "text": "They cannot speak to sellers"
+            },
+            {
+              "value": "B",
+              "text": "They can ask about where goods came from"
+            },
+            {
+              "value": "C",
+              "text": "Markets never sell fish"
+            },
+            {
+              "value": "D",
+              "text": "Supermarkets are illegal"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Paragraph 2 says customers can ask sellers where products came from."
+        },
+        {
+          "number": 6,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "How can markets help new sellers?",
+          "options": [
+            {
+              "value": "A",
+              "text": "By forcing them to buy a shop immediately"
+            },
+            {
+              "value": "B",
+              "text": "By providing an affordable place to test demand"
+            },
+            {
+              "value": "C",
+              "text": "By removing all competition"
+            },
+            {
+              "value": "D",
+              "text": "By closing during weekends"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Paragraph 3 explains that stalls let sellers test demand before larger investment."
+        },
+        {
+          "number": 7,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "What is the aim of modernising markets, according to the final paragraph?",
+          "options": [
+            {
+              "value": "A",
+              "text": "To make them identical to supermarkets"
+            },
+            {
+              "value": "B",
+              "text": "To make them easier to use while keeping their community role"
+            },
+            {
+              "value": "C",
+              "text": "To remove food courts"
+            },
+            {
+              "value": "D",
+              "text": "To stop local residents meeting"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The final paragraph clearly states this aim."
+        }
+      ]
+    },
+    {
+      "title": "Questions 8-10",
+      "instructions": "Answer the questions below. Write no more than two words from the passage for each answer.",
+      "questions": [
+        {
+          "number": 8,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What kind of habits may markets help maintain?",
+          "answer": [
+            "cultural habits"
+          ],
+          "explanation": "Paragraph 1 mentions cultural habits."
+        },
+        {
+          "number": 9,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What kind of supply chains may make goods seem fresher?",
+          "answer": [
+            "shorter supply chains"
+          ],
+          "explanation": "Paragraph 2 uses this phrase."
+        },
+        {
+          "number": 10,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What kind of areas can protect markets from weather?",
+          "answer": [
+            "covered areas"
+          ],
+          "explanation": "The final paragraph mentions covered areas as an improvement."
+        }
+      ]
+    }
+  ]
+}

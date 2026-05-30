@@ -1,0 +1,172 @@
+{
+  "id": "reading-test-4",
+  "title": "Reading Test 4: The Rise of Hybrid Work",
+  "durationMinutes": 60,
+  "passage": [
+    "Remote work expanded rapidly when many organisations were forced to reduce office attendance. Although some employees have now returned to traditional workplaces, hybrid arrangements remain common in many industries. A hybrid worker may spend part of the week at home and part of the week in an office.",
+    "Supporters of hybrid work argue that it offers flexibility. Employees can avoid some commuting, organise focused tasks at home, and attend collaborative meetings in person. Employers may also reduce office costs if fewer desks are needed every day.",
+    "However, hybrid work can create communication problems. Informal conversations that happen naturally in an office may be harder to reproduce online. New employees, in particular, may find it more difficult to learn workplace culture if they rarely meet colleagues face to face.",
+    "Managers have responded by redesigning meetings and office days. Some teams use shared calendars to identify when people will be present. Others reserve office days for training, planning, and creative tasks that benefit from immediate discussion.",
+    "The long-term success of hybrid work depends less on the location of employees than on clear expectations. Organisations need to decide which tasks require physical presence, how performance will be measured, and how workers can remain included even when they are not in the same room."
+  ],
+  "questionGroups": [
+    {
+      "title": "Questions 1-4",
+      "instructions": "Do the following statements agree with the information in the passage? Choose TRUE, FALSE, or NOT GIVEN.",
+      "questions": [
+        {
+          "number": 1,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Hybrid workers may divide their week between home and an office.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 1 defines a hybrid worker in this way."
+        },
+        {
+          "number": 2,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Hybrid work always increases the number of desks required.",
+          "answer": "FALSE",
+          "explanation": "Paragraph 2 says employers may reduce office costs if fewer desks are needed."
+        },
+        {
+          "number": 3,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "New employees may find workplace culture harder to learn with limited face-to-face contact.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 3 makes this point directly."
+        },
+        {
+          "number": 4,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Every company has made Friday a compulsory office day.",
+          "answer": "NOT GIVEN",
+          "explanation": "The passage discusses office days but does not mention Friday or compulsory rules for every company."
+        }
+      ]
+    },
+    {
+      "title": "Questions 5-7",
+      "instructions": "Choose the correct letter, A, B, C, or D.",
+      "questions": [
+        {
+          "number": 5,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "What is one benefit of hybrid work mentioned in the passage?",
+          "options": [
+            {
+              "value": "A",
+              "text": "Employees can avoid some commuting"
+            },
+            {
+              "value": "B",
+              "text": "Employees never need meetings"
+            },
+            {
+              "value": "C",
+              "text": "Employers must rent larger offices"
+            },
+            {
+              "value": "D",
+              "text": "Workplace culture disappears"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Paragraph 2 says employees can avoid some commuting."
+        },
+        {
+          "number": 6,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "Why are informal office conversations important?",
+          "options": [
+            {
+              "value": "A",
+              "text": "They replace all formal training"
+            },
+            {
+              "value": "B",
+              "text": "They may support communication and workplace learning"
+            },
+            {
+              "value": "C",
+              "text": "They reduce the need for computers"
+            },
+            {
+              "value": "D",
+              "text": "They guarantee promotion"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Paragraph 3 says such conversations are harder to reproduce online and links this to communication and culture."
+        },
+        {
+          "number": 7,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "What does the final paragraph say is most important for hybrid work?",
+          "options": [
+            {
+              "value": "A",
+              "text": "The size of the office"
+            },
+            {
+              "value": "B",
+              "text": "Clear expectations"
+            },
+            {
+              "value": "C",
+              "text": "Longer commutes"
+            },
+            {
+              "value": "D",
+              "text": "Fewer shared calendars"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The final paragraph says success depends on clear expectations."
+        }
+      ]
+    },
+    {
+      "title": "Questions 8-10",
+      "instructions": "Answer the questions below. Write no more than two words from the passage for each answer.",
+      "questions": [
+        {
+          "number": 8,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What type of arrangements remain common in many industries?",
+          "answer": [
+            "hybrid arrangements"
+          ],
+          "explanation": "Paragraph 1 uses this phrase."
+        },
+        {
+          "number": 9,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What do some teams use to identify when people will be present?",
+          "answer": [
+            "shared calendars"
+          ],
+          "explanation": "Paragraph 4 says some teams use shared calendars."
+        },
+        {
+          "number": 10,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What type of presence may some tasks require?",
+          "answer": [
+            "physical presence"
+          ],
+          "explanation": "The final paragraph says organisations need to decide which tasks require physical presence."
+        }
+      ]
+    }
+  ]
+}

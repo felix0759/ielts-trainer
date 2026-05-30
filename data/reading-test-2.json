@@ -1,0 +1,172 @@
+{
+  "id": "reading-test-2",
+  "title": "Reading Test 2: The Changing Role of Libraries",
+  "durationMinutes": 60,
+  "passage": [
+    "Community libraries have changed considerably over the last century. In the past, many libraries were quiet rooms where visitors borrowed printed books and read newspapers. Today, they often provide internet access, digital catalogues, study spaces, children’s activities, and advice sessions for local residents.",
+    "One reason for this change is the development of digital information. As more services moved online, libraries became important places for people who did not have reliable internet access at home. Staff members began to help users complete online forms, search for jobs, and use basic computer software.",
+    "Libraries also support social connection. In some neighbourhoods, weekly reading groups and craft clubs are among the few regular activities open to people of different ages. This role is especially valuable for older residents, new parents, and people who have recently moved to an area.",
+    "However, libraries face financial pressure. Local authorities may reduce opening hours or close smaller branches when budgets are limited. Supporters argue that these decisions save money only in the short term because libraries also reduce pressure on other public services by improving literacy, confidence, and access to information.",
+    "The future library is unlikely to be defined only by the number of books on its shelves. Instead, its value may depend on how effectively it combines physical space, digital support, and community activity. For many users, the library remains a public place where help can be found without payment or appointment."
+  ],
+  "questionGroups": [
+    {
+      "title": "Questions 1-4",
+      "instructions": "Do the following statements agree with the information in the passage? Choose TRUE, FALSE, or NOT GIVEN.",
+      "questions": [
+        {
+          "number": 1,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Libraries today may offer services beyond lending printed books.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 1 lists internet access, study spaces, activities, and advice sessions."
+        },
+        {
+          "number": 2,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "All library staff are required to have advanced programming skills.",
+          "answer": "NOT GIVEN",
+          "explanation": "The passage says staff help with basic software and online tasks, but it does not mention programming requirements."
+        },
+        {
+          "number": 3,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Reading groups and craft clubs can help people connect socially.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 3 says these activities support social connection."
+        },
+        {
+          "number": 4,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Closing smaller branches always improves literacy in the community.",
+          "answer": "FALSE",
+          "explanation": "Paragraph 4 suggests closures may reduce services that support literacy and access to information."
+        }
+      ]
+    },
+    {
+      "title": "Questions 5-7",
+      "instructions": "Choose the correct letter, A, B, C, or D.",
+      "questions": [
+        {
+          "number": 5,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "Why did libraries become important for some people as services moved online?",
+          "options": [
+            {
+              "value": "A",
+              "text": "They sold cheaper computers"
+            },
+            {
+              "value": "B",
+              "text": "They provided reliable internet access"
+            },
+            {
+              "value": "C",
+              "text": "They stopped lending books"
+            },
+            {
+              "value": "D",
+              "text": "They replaced local schools"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Paragraph 2 says libraries helped people without reliable internet at home."
+        },
+        {
+          "number": 6,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "Who is specifically mentioned as benefiting from library social activities?",
+          "options": [
+            {
+              "value": "A",
+              "text": "Professional athletes"
+            },
+            {
+              "value": "B",
+              "text": "Older residents"
+            },
+            {
+              "value": "C",
+              "text": "University lecturers only"
+            },
+            {
+              "value": "D",
+              "text": "Car owners"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Paragraph 3 specifically mentions older residents."
+        },
+        {
+          "number": 7,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "What is the main idea of the final paragraph?",
+          "options": [
+            {
+              "value": "A",
+              "text": "Libraries should remove all books"
+            },
+            {
+              "value": "B",
+              "text": "Libraries are valuable when they combine several roles"
+            },
+            {
+              "value": "C",
+              "text": "Libraries should charge appointment fees"
+            },
+            {
+              "value": "D",
+              "text": "Libraries should become private offices"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The final paragraph says future value depends on combining physical space, digital support, and community activity."
+        }
+      ]
+    },
+    {
+      "title": "Questions 8-10",
+      "instructions": "Answer the questions below. Write no more than two words from the passage for each answer.",
+      "questions": [
+        {
+          "number": 8,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What type of catalogues may modern libraries provide?",
+          "answer": [
+            "digital catalogues"
+          ],
+          "explanation": "Paragraph 1 mentions digital catalogues."
+        },
+        {
+          "number": 9,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What kind of pressure do libraries face?",
+          "answer": [
+            "financial pressure"
+          ],
+          "explanation": "Paragraph 4 begins by saying libraries face financial pressure."
+        },
+        {
+          "number": 10,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "According to the passage, what kind of place is a library for many users?",
+          "answer": [
+            "public place"
+          ],
+          "explanation": "The final sentence describes the library as a public place."
+        }
+      ]
+    }
+  ]
+}

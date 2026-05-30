@@ -4,6 +4,41 @@
       "id": "reading-test-1",
       "title": "Reading Test 1",
       "description": "Practice passage with True / False / Not Given, multiple choice, and short-answer questions."
+    },
+    {
+      "id": "reading-test-2",
+      "title": "Reading Test 2",
+      "description": "Practice passage about libraries, digital access, and community services."
+    },
+    {
+      "id": "reading-test-3",
+      "title": "Reading Test 3",
+      "description": "Practice passage about urban design, building use, and environmental benefits."
+    },
+    {
+      "id": "reading-test-4",
+      "title": "Reading Test 4",
+      "description": "Practice passage about work patterns, communication, and management."
+    },
+    {
+      "id": "reading-test-5",
+      "title": "Reading Test 5",
+      "description": "Practice passage about local markets, small businesses, and community life."
+    },
+    {
+      "id": "reading-test-6",
+      "title": "Reading Test 6",
+      "description": "Practice passage about public participation in scientific research."
+    },
+    {
+      "id": "reading-test-7",
+      "title": "Reading Test 7",
+      "description": "Practice passage about electric buses, emissions, and infrastructure."
+    },
+    {
+      "id": "reading-test-8",
+      "title": "Reading Test 8",
+      "description": "Practice passage about memory, attention, and study routines."
     }
   ]
 }

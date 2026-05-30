@@ -1,0 +1,172 @@
+{
+  "id": "reading-test-7",
+  "title": "Reading Test 7: Electric Buses and Urban Transport",
+  "durationMinutes": 60,
+  "passage": [
+    "Electric buses are being introduced in many cities as transport authorities attempt to reduce emissions from public transport. Unlike diesel buses, electric buses produce no exhaust fumes while driving, which can improve air quality along busy routes.",
+    "The environmental benefit of electric buses depends partly on how electricity is produced. If the electricity comes mainly from coal, the total reduction in emissions may be smaller. If it comes from renewable sources such as wind or solar power, the overall impact can be much stronger.",
+    "Electric buses can also be quieter than diesel vehicles. This is useful in residential streets and near schools, where traffic noise can affect daily life. However, quiet vehicles may create new safety concerns for pedestrians who rely on sound when crossing roads.",
+    "Charging infrastructure is one of the main practical challenges. Bus operators need charging points at depots or along routes, and schedules must allow enough time for batteries to recharge. In cold weather or on hilly routes, batteries may lose energy more quickly.",
+    "Although electric buses can be expensive to purchase, their running costs may be lower because electricity and maintenance can cost less than diesel fuel and engine repairs. For many cities, the decision involves balancing high initial costs against long-term savings and environmental goals."
+  ],
+  "questionGroups": [
+    {
+      "title": "Questions 1-4",
+      "instructions": "Do the following statements agree with the information in the passage? Choose TRUE, FALSE, or NOT GIVEN.",
+      "questions": [
+        {
+          "number": 1,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Electric buses produce no exhaust fumes while driving.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 1 states this directly."
+        },
+        {
+          "number": 2,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Electric buses always have the same environmental impact regardless of electricity source.",
+          "answer": "FALSE",
+          "explanation": "Paragraph 2 says the benefit depends partly on how electricity is produced."
+        },
+        {
+          "number": 3,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Quiet electric buses may create safety concerns for some pedestrians.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 3 says this directly."
+        },
+        {
+          "number": 4,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "All electric buses can fully recharge in under five minutes.",
+          "answer": "NOT GIVEN",
+          "explanation": "The passage discusses charging time but gives no specific five-minute claim."
+        }
+      ]
+    },
+    {
+      "title": "Questions 5-7",
+      "instructions": "Choose the correct letter, A, B, C, or D.",
+      "questions": [
+        {
+          "number": 5,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "Which electricity source would strengthen the environmental benefit of electric buses?",
+          "options": [
+            {
+              "value": "A",
+              "text": "Coal only"
+            },
+            {
+              "value": "B",
+              "text": "Renewable sources"
+            },
+            {
+              "value": "C",
+              "text": "Diesel engines"
+            },
+            {
+              "value": "D",
+              "text": "Road noise"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Paragraph 2 says renewable sources like wind or solar make the impact stronger."
+        },
+        {
+          "number": 6,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "What is one main practical challenge for electric buses?",
+          "options": [
+            {
+              "value": "A",
+              "text": "Charging infrastructure"
+            },
+            {
+              "value": "B",
+              "text": "A lack of passengers"
+            },
+            {
+              "value": "C",
+              "text": "Too much exhaust smoke"
+            },
+            {
+              "value": "D",
+              "text": "Printed tickets"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Paragraph 4 identifies charging infrastructure as a main practical challenge."
+        },
+        {
+          "number": 7,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "What does the final paragraph suggest cities must balance?",
+          "options": [
+            {
+              "value": "A",
+              "text": "High initial costs, long-term savings, and environmental goals"
+            },
+            {
+              "value": "B",
+              "text": "School holidays and library opening hours"
+            },
+            {
+              "value": "C",
+              "text": "Noise and printed newspapers"
+            },
+            {
+              "value": "D",
+              "text": "Coal mining and bicycle lanes"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The final paragraph states this directly."
+        }
+      ]
+    },
+    {
+      "title": "Questions 8-10",
+      "instructions": "Answer the questions below. Write no more than two words from the passage for each answer.",
+      "questions": [
+        {
+          "number": 8,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What type of quality can electric buses improve along busy routes?",
+          "answer": [
+            "air quality"
+          ],
+          "explanation": "Paragraph 1 says they can improve air quality."
+        },
+        {
+          "number": 9,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What kind of streets may benefit from quieter buses?",
+          "answer": [
+            "residential streets"
+          ],
+          "explanation": "Paragraph 3 mentions residential streets."
+        },
+        {
+          "number": 10,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What kind of costs may be lower for electric buses?",
+          "answer": [
+            "running costs"
+          ],
+          "explanation": "Paragraph 5 says their running costs may be lower."
+        }
+      ]
+    }
+  ]
+}

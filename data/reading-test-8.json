@@ -1,0 +1,172 @@
+{
+  "id": "reading-test-8",
+  "title": "Reading Test 8: Sleep and Effective Learning",
+  "durationMinutes": 60,
+  "passage": [
+    "Sleep has a strong influence on learning, but its role is sometimes underestimated by students. When people study new material, the brain does not simply store information at the moment of reading or listening. Important changes continue to happen after study sessions have ended.",
+    "Researchers often describe sleep as a period of memory consolidation. During this process, the brain strengthens some new connections and weakens others. This may help learners remember important information while forgetting details that are less useful.",
+    "Sleep can also affect attention. A student who sleeps poorly may read the same paragraph several times without understanding it fully. In contrast, a rested student is more likely to notice relationships between ideas and correct errors during practice.",
+    "Many students try to compensate for limited time by studying late into the night. This may increase the number of hours spent with books, but it can reduce the quality of learning the following day. Short review sessions over several days are often more effective than one long session before a test.",
+    "Good study routines therefore include both active practice and recovery. Testing oneself, explaining ideas aloud, and reviewing mistakes are useful strategies, but they work best when combined with enough sleep. Learning is not only about effort; it is also about allowing the brain time to organise what has been learned."
+  ],
+  "questionGroups": [
+    {
+      "title": "Questions 1-4",
+      "instructions": "Do the following statements agree with the information in the passage? Choose TRUE, FALSE, or NOT GIVEN.",
+      "questions": [
+        {
+          "number": 1,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "The brain continues to process information after study sessions end.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 1 says important changes continue after study sessions have ended."
+        },
+        {
+          "number": 2,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Memory consolidation involves strengthening some connections and weakening others.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 2 states this directly."
+        },
+        {
+          "number": 3,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Studying late at night always improves learning quality the next day.",
+          "answer": "FALSE",
+          "explanation": "Paragraph 4 says it can reduce the quality of learning the following day."
+        },
+        {
+          "number": 4,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "The passage says every student needs exactly eight hours of sleep.",
+          "answer": "NOT GIVEN",
+          "explanation": "The passage discusses enough sleep but gives no exact number."
+        }
+      ]
+    },
+    {
+      "title": "Questions 5-7",
+      "instructions": "Choose the correct letter, A, B, C, or D.",
+      "questions": [
+        {
+          "number": 5,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "What may poor sleep reduce?",
+          "options": [
+            {
+              "value": "A",
+              "text": "Attention"
+            },
+            {
+              "value": "B",
+              "text": "The existence of books"
+            },
+            {
+              "value": "C",
+              "text": "All memory immediately"
+            },
+            {
+              "value": "D",
+              "text": "The number of paragraphs in a text"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Paragraph 3 says sleep can affect attention."
+        },
+        {
+          "number": 6,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "What study pattern is often more effective than one long session before a test?",
+          "options": [
+            {
+              "value": "A",
+              "text": "No practice at all"
+            },
+            {
+              "value": "B",
+              "text": "Short review sessions over several days"
+            },
+            {
+              "value": "C",
+              "text": "Only reading at midnight"
+            },
+            {
+              "value": "D",
+              "text": "Studying without mistakes"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Paragraph 4 states this directly."
+        },
+        {
+          "number": 7,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "What is the main message of the final paragraph?",
+          "options": [
+            {
+              "value": "A",
+              "text": "Effort matters, but recovery also supports learning"
+            },
+            {
+              "value": "B",
+              "text": "Students should never test themselves"
+            },
+            {
+              "value": "C",
+              "text": "Speaking aloud prevents learning"
+            },
+            {
+              "value": "D",
+              "text": "Sleep replaces all study"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The paragraph argues that active strategies work best with enough sleep and recovery."
+        }
+      ]
+    },
+    {
+      "title": "Questions 8-10",
+      "instructions": "Answer the questions below. Write no more than two words from the passage for each answer.",
+      "questions": [
+        {
+          "number": 8,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What term is used to describe sleep's role in strengthening memory?",
+          "answer": [
+            "memory consolidation"
+          ],
+          "explanation": "Paragraph 2 uses this term."
+        },
+        {
+          "number": 9,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What kind of student is more likely to notice relationships between ideas?",
+          "answer": [
+            "rested student"
+          ],
+          "explanation": "Paragraph 3 uses the phrase a rested student."
+        },
+        {
+          "number": 10,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What should learners review as part of a good study routine?",
+          "answer": [
+            "mistakes"
+          ],
+          "explanation": "The final paragraph includes reviewing mistakes as a useful strategy."
+        }
+      ]
+    }
+  ]
+}

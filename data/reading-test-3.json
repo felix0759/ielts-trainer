@@ -1,0 +1,173 @@
+{
+  "id": "reading-test-3",
+  "title": "Reading Test 3: Rooftop Gardens in Modern Cities",
+  "durationMinutes": 60,
+  "passage": [
+    "Rooftop gardens are becoming more common in dense cities where ground-level space is limited. These gardens can be installed on residential buildings, offices, schools, and public facilities. Some are designed mainly for relaxation, while others are used to grow vegetables or support urban wildlife.",
+    "One advantage of rooftop planting is temperature control. Soil and vegetation can absorb sunlight and reduce the amount of heat transferred into a building. This may lower the need for air conditioning in summer, especially in poorly insulated buildings.",
+    "Rooftop gardens can also help manage rainwater. During heavy rainfall, plants and soil hold part of the water temporarily, slowing the speed at which it enters drainage systems. This does not remove the need for proper drains, but it can reduce pressure during storms.",
+    "Despite these benefits, rooftop gardens require careful planning. Engineers must check whether a roof can support the extra weight of soil, water, plants, and people. Maintenance is also important because neglected gardens can become unsafe or fail to survive dry periods.",
+    "Successful projects often involve cooperation between architects, residents, building managers, and local authorities. When these groups work together, rooftop gardens can provide environmental benefits as well as pleasant shared spaces above the busy streets below."
+  ],
+  "questionGroups": [
+    {
+      "title": "Questions 1-4",
+      "instructions": "Do the following statements agree with the information in the passage? Choose TRUE, FALSE, or NOT GIVEN.",
+      "questions": [
+        {
+          "number": 1,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Rooftop gardens are only found on residential buildings.",
+          "answer": "FALSE",
+          "explanation": "Paragraph 1 says they can be installed on residential buildings, offices, schools, and public facilities."
+        },
+        {
+          "number": 2,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Some rooftop gardens are used to grow vegetables.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 1 says some are used to grow vegetables."
+        },
+        {
+          "number": 3,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Rooftop gardens completely remove the need for drainage systems.",
+          "answer": "FALSE",
+          "explanation": "Paragraph 3 says they do not remove the need for proper drains."
+        },
+        {
+          "number": 4,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Most rooftop gardens are funded by international charities.",
+          "answer": "NOT GIVEN",
+          "explanation": "The passage does not mention international charities or funding sources."
+        }
+      ]
+    },
+    {
+      "title": "Questions 5-7",
+      "instructions": "Choose the correct letter, A, B, C, or D.",
+      "questions": [
+        {
+          "number": 5,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "How can rooftop gardens reduce energy use in summer?",
+          "options": [
+            {
+              "value": "A",
+              "text": "By reflecting all rainwater"
+            },
+            {
+              "value": "B",
+              "text": "By absorbing sunlight and reducing heat transfer"
+            },
+            {
+              "value": "C",
+              "text": "By closing public facilities"
+            },
+            {
+              "value": "D",
+              "text": "By increasing roof weight"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Paragraph 2 explains that soil and vegetation absorb sunlight and reduce heat transfer."
+        },
+        {
+          "number": 6,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "What must engineers check before a rooftop garden is built?",
+          "options": [
+            {
+              "value": "A",
+              "text": "The price of vegetables"
+            },
+            {
+              "value": "B",
+              "text": "Whether the roof can support extra weight"
+            },
+            {
+              "value": "C",
+              "text": "The number of nearby buses"
+            },
+            {
+              "value": "D",
+              "text": "The colour of the building"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Paragraph 4 says engineers must check whether the roof can support extra weight."
+        },
+        {
+          "number": 7,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "According to the final paragraph, successful projects often require",
+          "options": [
+            {
+              "value": "A",
+              "text": "cooperation between several groups"
+            },
+            {
+              "value": "B",
+              "text": "the removal of all residents"
+            },
+            {
+              "value": "C",
+              "text": "no maintenance after construction"
+            },
+            {
+              "value": "D",
+              "text": "gardens to be built only on schools"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The passage lists cooperation between architects, residents, managers, and authorities."
+        }
+      ]
+    },
+    {
+      "title": "Questions 8-10",
+      "instructions": "Answer the questions below. Write no more than two words from the passage for each answer.",
+      "questions": [
+        {
+          "number": 8,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What kind of space is limited in dense cities?",
+          "answer": [
+            "ground-level space",
+            "ground level space"
+          ],
+          "explanation": "Paragraph 1 says ground-level space is limited."
+        },
+        {
+          "number": 9,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What can plants and soil temporarily hold during heavy rainfall?",
+          "answer": [
+            "water"
+          ],
+          "explanation": "Paragraph 3 says plants and soil hold part of the water temporarily."
+        },
+        {
+          "number": 10,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What type of periods may neglected gardens fail to survive?",
+          "answer": [
+            "dry periods"
+          ],
+          "explanation": "Paragraph 4 says neglected gardens may fail to survive dry periods."
+        }
+      ]
+    }
+  ]
+}

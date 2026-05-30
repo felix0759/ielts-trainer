@@ -1,0 +1,173 @@
+{
+  "id": "reading-test-6",
+  "title": "Reading Test 6: Citizen Science and Environmental Research",
+  "durationMinutes": 60,
+  "passage": [
+    "Citizen science refers to research projects in which members of the public help collect or analyse data. The approach is not new, but mobile phones and online platforms have made it easier for large numbers of volunteers to participate.",
+    "Environmental studies often use citizen science. Volunteers may record bird sightings, measure air quality, photograph plants, or report changes in local rivers. When many people contribute observations over a wide area, researchers can identify patterns that would be difficult to see from a small professional team alone.",
+    "The quality of data is an important concern. Volunteers may have different levels of training, and mistakes can occur when species are misidentified or measurements are taken incorrectly. To reduce this problem, projects often provide clear instructions, simple reporting tools, and expert checks of unusual results.",
+    "Citizen science can also have educational benefits. Participants may become more interested in local environments after observing them carefully. Schools sometimes use these projects to connect science lessons with real-world investigation.",
+    "For researchers, the best citizen science projects are carefully designed. They ask questions that volunteers can realistically help answer, and they explain how the collected data will be used. When participants understand the purpose of their work, they are more likely to remain involved."
+  ],
+  "questionGroups": [
+    {
+      "title": "Questions 1-4",
+      "instructions": "Do the following statements agree with the information in the passage? Choose TRUE, FALSE, or NOT GIVEN.",
+      "questions": [
+        {
+          "number": 1,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Citizen science always requires volunteers to work in laboratories.",
+          "answer": "FALSE",
+          "explanation": "The passage gives examples such as bird sightings, air quality, and local rivers, not only laboratory work."
+        },
+        {
+          "number": 2,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Mobile phones have made public participation easier.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 1 says mobile phones and online platforms have made participation easier."
+        },
+        {
+          "number": 3,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Mistakes can happen if species are misidentified.",
+          "answer": "TRUE",
+          "explanation": "Paragraph 3 states this directly."
+        },
+        {
+          "number": 4,
+          "type": "true_false_not_given",
+          "typeLabel": "True / False / Not Given",
+          "question": "Citizen science projects are legally required in all schools.",
+          "answer": "NOT GIVEN",
+          "explanation": "The passage says schools sometimes use them, but mentions no legal requirement."
+        }
+      ]
+    },
+    {
+      "title": "Questions 5-7",
+      "instructions": "Choose the correct letter, A, B, C, or D.",
+      "questions": [
+        {
+          "number": 5,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "What advantage do many volunteer observations provide?",
+          "options": [
+            {
+              "value": "A",
+              "text": "They remove the need for research questions"
+            },
+            {
+              "value": "B",
+              "text": "They help researchers identify wide-area patterns"
+            },
+            {
+              "value": "C",
+              "text": "They make expert checks impossible"
+            },
+            {
+              "value": "D",
+              "text": "They replace all scientific training"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Paragraph 2 says wide-area observations help identify patterns."
+        },
+        {
+          "number": 6,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "How can projects reduce data-quality problems?",
+          "options": [
+            {
+              "value": "A",
+              "text": "By avoiding instructions"
+            },
+            {
+              "value": "B",
+              "text": "By using only unusual results"
+            },
+            {
+              "value": "C",
+              "text": "By providing clear instructions and expert checks"
+            },
+            {
+              "value": "D",
+              "text": "By asking volunteers to guess"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Paragraph 3 lists clear instructions, simple tools, and expert checks."
+        },
+        {
+          "number": 7,
+          "type": "multiple_choice",
+          "typeLabel": "Multiple choice",
+          "question": "What makes volunteers more likely to remain involved?",
+          "options": [
+            {
+              "value": "A",
+              "text": "Understanding the purpose of their work"
+            },
+            {
+              "value": "B",
+              "text": "Never receiving instructions"
+            },
+            {
+              "value": "C",
+              "text": "Using complicated tools only"
+            },
+            {
+              "value": "D",
+              "text": "Collecting data secretly"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The final paragraph says participants are more likely to remain involved when they understand the purpose."
+        }
+      ]
+    },
+    {
+      "title": "Questions 8-10",
+      "instructions": "Answer the questions below. Write no more than two words from the passage for each answer.",
+      "questions": [
+        {
+          "number": 8,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What type of platforms have made citizen science easier?",
+          "answer": [
+            "online platforms"
+          ],
+          "explanation": "Paragraph 1 mentions online platforms."
+        },
+        {
+          "number": 9,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What kind of results may receive expert checks?",
+          "answer": [
+            "unusual results"
+          ],
+          "explanation": "Paragraph 3 says expert checks of unusual results."
+        },
+        {
+          "number": 10,
+          "type": "short_answer",
+          "typeLabel": "Short answer",
+          "question": "What type of investigation can schools connect science lessons with?",
+          "answer": [
+            "real-world investigation",
+            "real world investigation"
+          ],
+          "explanation": "Paragraph 4 uses this phrase."
+        }
+      ]
+    }
+  ]
+}
